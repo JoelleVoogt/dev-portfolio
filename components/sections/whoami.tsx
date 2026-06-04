@@ -37,28 +37,33 @@ export default function WhoAmI() {
         </div>
       </div>
       <div
-        className="grid gap-y-1 w-full font-mono text-sm md:text-base"
+        className="grid gap-y-3 w-full font-mono text-sm md:text-base"
         style={{ gridTemplateColumns: "96px 56px 1fr" }}
       >
         <span className="text-mist-400 tracking-widest">SYSTEM</span>
-        <span className="text-green-400">[OK]</span>
+        <span className="text-brand-400">[OK]</span>
         <span className="text-white">Portfolio v8.2 loaded</span>
 
         <span className="text-mist-400 tracking-widest">ROLE</span>
-        <span className="text-green-400">[OK]</span>
+        <span className="text-brand-400">[OK]</span>
         <span className="text-white">Front-end Developer</span>
 
         <span className="text-mist-400 tracking-widest">STACK</span>
-        <span className="text-green-400">[OK]</span>
+        <span className="text-brand-400">[OK]</span>
         <span className="text-white">HTML, CSS, JavaScript</span>
 
         <span className="text-mist-400 tracking-widest">CERTIFIED</span>
-        <span className="text-green-400">[OK]</span>
+        <span className="text-brand-400">[OK]</span>
         <span className="text-white">7 years UX/UI</span>
 
         <span className="text-mist-400 tracking-widest">STATUS</span>
-        <span className="text-green-400">[OK]</span>
-        <span className="text-orange-400">Ready to deploy</span>
+        <span className="text-brand-400">[OK]</span>
+        <span className="text-secondary-400">Ready to deploy</span>
+      </div>
+
+      <div className="flex items-center gap-2 w-full font-mono text-sm text-brand-400">
+        <p>System ready. Scroll to explore.</p>
+        <span className="w-3 h-5 bg-brand-400 animate-pulse" />
       </div>
     </div>
   );

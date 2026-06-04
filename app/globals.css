@@ -17,6 +17,18 @@
   --color-brand-800: #00661a;
   --color-brand-900: #00330d;
   --color-brand-950: #002409;
+
+  --color-secondary-50: #fff0e5;
+  --color-secondary-100: #ffe0cc;
+  --color-secondary-200: #ffc299;
+  --color-secondary-300: #ffa366;
+  --color-secondary-400: #ff8533;
+  --color-secondary-500: #ff6600;
+  --color-secondary-600: #cc5200;
+  --color-secondary-700: #993d00;
+  --color-secondary-800: #662900;
+  --color-secondary-900: #331400;
+  --color-secondary-950: #240e00;
 }
 
 @theme inline {
