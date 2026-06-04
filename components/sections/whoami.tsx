@@ -5,7 +5,7 @@ export default function WhoAmI() {
   return (
     <div className="min-h-screen flex flex-col justify-center items-center p-4 gap-14">
       <div className="flex justify-start items-center" id="whoami">
-        <div className="flex flex-col justify-start items-center gap-8">
+        <div className="flex flex-col md:flex-row justify-start items-center gap-8">
           <Image
             src="/avatar-mobile.png"
             width={116}
@@ -36,10 +36,7 @@ export default function WhoAmI() {
           />
         </div>
       </div>
-      <div
-        className="grid gap-y-3 w-full font-mono text-sm md:text-base"
-        style={{ gridTemplateColumns: "96px 56px 1fr" }}
-      >
+      <div className="grid gap-y-3 w-full font-mono text-sm md:text-base grid-cols-[96px_56px_1fr] md:grid-cols-[176px_80px_1fr]">
         <span className="text-mist-400 tracking-widest">SYSTEM</span>
         <span className="text-brand-400">[OK]</span>
         <span className="text-white">Portfolio v8.2 loaded</span>
