@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-function getLocation(folder: string) {
+function getFolder(folder: string) {
   return `joellevoogt:~/${folder}$`;
 }
 
@@ -22,7 +22,7 @@ export default function Terminal({
           <span className="inline-block w-3 h-3 rounded-full bg-[#27CA40]" />
         </div>
         <div className="flex w-full justify-center">
-          <p className="text-base text-mist-400">{getLocation(folder)}</p>
+          <p className="text-base text-mist-400">{getFolder(folder)}</p>
         </div>
       </div>
 

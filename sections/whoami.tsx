@@ -9,8 +9,10 @@ export default function WhoAmI() {
       id="whoami"
     >
       <Terminal folder="about">
-        <p>Joelle Voogt</p>
-        <p>Front-end Developer with a UX background</p>
+        <p className="text-sm text-mist-100 font-mono">Joelle Voogt</p>
+        <p className="text-sm text-mist-100 font-mono">
+          Front-end Developer with a UX background
+        </p>
       </Terminal>
     </div>
   );

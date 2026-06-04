@@ -8,8 +8,8 @@ export default function Projects() {
       className="min-h-screen max-w-5xl w-full mx-auto flex justify-start items-center p-4"
       id="projects"
     >
-      <Terminal folder="about">
-        <p>Projects</p>
+      <Terminal folder="projects">
+        <p className="text-sm text-mist-100 font-mono">Projects</p>
       </Terminal>
     </div>
   );
