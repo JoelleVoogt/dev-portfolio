@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Contact() {
   return (
-    <div className="min-h-screen" id="contact">
+    <div className="min-h-screen flex justify-start items-center" id="contact">
       <p>Contact</p>
     </div>
   );
