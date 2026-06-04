@@ -40,7 +40,7 @@ export default function Hero() {
           />
         </div>
       </div>
-      <div className="grid gap-y-3 w-full font-mono text-sm md:text-base grid-cols-[96px_56px_1fr] md:grid-cols-[176px_80px_1fr]">
+      <div className="grid gap-y-3 w-full font-mono text-sm md:text-base grid-cols-[96px_56px_1fr] md:grid-cols-[176px_80px_1fr] drop-shadow-[0_0_10px_rgba(0,255,65,0.30)]">
         <span className="text-mist-400 tracking-widest">SYSTEM</span>
         <span className="text-brand-400">[OK]</span>
         <span className="text-white">Portfolio v8.2 loaded</span>
@@ -62,7 +62,7 @@ export default function Hero() {
         <span className="text-secondary-400">Ready to deploy</span>
       </div>
 
-      <div className="flex items-center gap-2 w-full font-mono text-sm text-brand-400 drop-shadow-[0_0_40px_rgba(0,255,65,0.90)]">
+      <div className="flex items-center gap-2 w-full font-mono text-sm text-brand-400 drop-shadow-[0_0_10px_rgba(0,255,65,0.30)]">
         <p>System ready. Scroll to explore.</p>
         <span className="w-3 h-5 bg-brand-400 animate-pulse" />
       </div>
