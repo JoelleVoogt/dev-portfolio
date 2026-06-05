@@ -7,7 +7,7 @@ export default function Nav() {
         <div className="text-sm text-brand-400 font-mono">
           <Link href="/">joellevoogt:~$</Link>
         </div>
-        <div className="text-sm text-brand-400 font-mono gap-4 md:gap-8 flex items-center">
+        <div className="text-sm text-brand-400 font-mono gap-2 md:gap-8 flex items-center">
           <Link href="#whoami">whoami</Link>
           <Link href="#projects">projects</Link>
           <Link href="#contact">contact</Link>
