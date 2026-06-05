@@ -1,6 +1,3 @@
-import Link from "next/link";
-import Image from "next/image";
-
 function getFolder(folder: string) {
   return `joellevoogt:~/${folder}$`;
 }
