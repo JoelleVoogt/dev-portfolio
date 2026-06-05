@@ -7,7 +7,7 @@ export default function Contact() {
       id="contact"
     >
       <Terminal folder="contact">
-        <p className="text-sm text-mist-100 font-mono">Contact</p>
+        <p className="text-sm text-surface-100 font-mono">Contact</p>
       </Terminal>
     </div>
   );

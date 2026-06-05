@@ -15,17 +15,17 @@ export default function WhoAmI() {
               joellevoogt
             </p>
             <p className="text-sm text-brand-400">:~/about$</p>
-            <p className="text-sm text-mist-100">whoami</p>
+            <p className="text-sm text-surface-200">whoami</p>
           </div>
 
           <div className="flex flex-col gap-2">
             <p className="text-xl text-brand-400 text-glow-brand">
               Joelle Voogt
             </p>
-            <p className="text-md text-gray-200">
+            <p className="text-md text-surface-200">
               Front-end Developer with a UX background
             </p>
-            <p className="text-md text-gray-500">
+            <p className="text-md text-surface-600">
               // Based in Delft, Netherlands
             </p>
           </div>
@@ -35,8 +35,8 @@ export default function WhoAmI() {
               joellevoogt
             </p>
             <p className="text-sm text-brand-400">:~/about$</p>
-            <p className="text-sm text-gray-100">cat </p>
-            <p className="text-sm text-gray-100">./skills.txt</p>
+            <p className="text-sm text-surface-200">cat </p>
+            <p className="text-sm text-surface-200">./skills.txt</p>
           </div>
         </div>
       </Terminal>

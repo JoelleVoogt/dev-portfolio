@@ -22,7 +22,9 @@ export default function Terminal({
           <span className="inline-block w-3 h-3 rounded-full bg-[#27CA40]" />
         </div>
         <div className="flex w-full justify-center">
-          <p className="text-sm text-[#666] font-mono">{getFolder(folder)}</p>
+          <p className="text-sm text-surface-600 font-mono">
+            {getFolder(folder)}
+          </p>
         </div>
       </div>
 

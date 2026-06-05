@@ -40,25 +40,27 @@ export default function Hero() {
         </div>
       </div>
       <div className="grid gap-y-2 md:gap-y-3 w-full font-mono text-sm md:text-base grid-cols-[96px_56px_1fr] md:grid-cols-[176px_80px_1fr] drop-shadow-[0_0_10px_rgba(0,255,65,0.30)]">
-        <span className="text-mist-400 tracking-widest">SYSTEM</span>
+        <span className="text-surface-400 tracking-widest">SYSTEM</span>
         <span className="text-brand-400">[OK]</span>
-        <span className="text-white">Portfolio v8.2 loaded</span>
+        <span className="text-surface-50">Portfolio v8.2 loaded</span>
 
-        <span className="text-mist-400 tracking-widest">ROLE</span>
+        <span className="text-surface-400 tracking-widest">ROLE</span>
         <span className="text-brand-400">[OK]</span>
-        <span className="text-white">Front-end Developer</span>
+        <span className="text-surface-50">Front-end Developer</span>
 
-        <span className="text-mist-400 tracking-widest">STACK</span>
+        <span className="text-surface-400 tracking-widest">STACK</span>
         <span className="text-brand-400">[OK]</span>
-        <span className="text-white">HTML, CSS, JavaScript</span>
+        <span className="text-surface-50">HTML, CSS, JavaScript</span>
 
-        <span className="text-mist-400 tracking-widest">CERTIFIED</span>
+        <span className="text-surface-400 tracking-widest">CERTIFIED</span>
         <span className="text-brand-400">[OK]</span>
-        <span className="text-white">7 years UX/UI</span>
+        <span className="text-surface-50">7 years UX/UI</span>
 
-        <span className="text-mist-400 tracking-widest">STATUS</span>
+        <span className="text-surface-400 tracking-widest">STATUS</span>
         <span className="text-brand-400">[OK]</span>
-        <span className="text-secondary-400">Ready to deploy</span>
+        <span className="text-secondary-400 text-shadow-secondary-50">
+          Ready to deploy
+        </span>
       </div>
 
       <div className="flex items-center gap-2 w-full font-mono text-sm text-brand-400 drop-shadow-[0_0_10px_rgba(0,255,65,0.30)]">
