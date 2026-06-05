@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Terminal from "@/components/terminal";
 import Concatenate from "@/components/concatenate";
 import Socials from "@/components/socials";
@@ -11,7 +10,10 @@ export default function Contact() {
     >
       <Terminal folder="contact">
         <div className="flex flex-col gap-18 my-6">
-          <Concatenate folderLocation="cat ./links.txt" />
+          <Concatenate
+            folderLocationFirst="~/contact$"
+            folderLocationSecond="cat ./links.txt"
+          />
           <div className="flex flex-col gap-4 md:pl-6">
             <p className="text-surface-400">// Let's connect</p>
 

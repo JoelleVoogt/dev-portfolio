@@ -49,6 +49,7 @@ export default function Hero() {
           boot="STATUS"
           status="Ready to deploy"
           statusColor="text-secondary-400"
+          // textGlow="text-glow-secondary"
         />
       </div>
 

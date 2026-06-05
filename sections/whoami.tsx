@@ -12,7 +12,10 @@ export default function WhoAmI() {
         {/* whoami */}
         <div className="flex flex-col gap-18 my-6">
           <div className="flex flex-col gap-5">
-            <Concatenate folderLocation="whoami" />
+            <Concatenate
+              folderLocationFirst="~/about$"
+              folderLocationSecond="whoami"
+            />
             <div className="flex flex-col gap-2">
               <p className="text-2xl text-brand-400 text-glow-brand">
                 Joelle Voogt
@@ -27,7 +30,10 @@ export default function WhoAmI() {
           {/* skills */}
           <div className="flex flex-col gap-5">
             <div className="flex flex-col gap-1">
-              <Concatenate folderLocation="cat ./skills.txt" />
+              <Concatenate
+                folderLocationFirst="~/about$"
+                folderLocationSecond="cat ./skills.txt"
+              />
             </div>
             <div className="flex flex-col gap-2 pl-2 md:pl-6">
               <Skill text="Git & Github" />
