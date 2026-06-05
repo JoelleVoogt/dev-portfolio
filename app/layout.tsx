@@ -33,11 +33,12 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${jetbrainsMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-ful  l flex flex-col">
         {children}
         <div
           className="fixed inset-0 z-40 pointer-events-none"
           style={{
+            height: "100dvh",
             background: `
     radial-gradient(ellipse at center, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 0%, rgba(0,0,0,0.40) 100%),
     repeating-linear-gradient(
