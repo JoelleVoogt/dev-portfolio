@@ -1,7 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import Terminal from "@/components/terminal";
-import { ArrowRight } from "lucide-react";
+import Skill from "@/components/skill";
+import Concatenate from "@/components/concatenate";
 
 export default function WhoAmI() {
   return (
@@ -11,16 +12,8 @@ export default function WhoAmI() {
     >
       <Terminal folder="about">
         {/* whoami */}
-        <div className="font-mono flex flex-col gap-16 p-2 my-6">
-          <div className="flex flex-col gap-24">
-            <div className="flex flex-row gap-1">
-              <p className="text-secondary-400 text-glow-secondary">
-                joellevoogt
-              </p>
-              <p className="text-brand-400">:~/about$</p>
-              <p className="text-surface-200">whoami</p>
-            </div>
-          </div>
+        <div className="font-mono flex flex-col gap-12 my-6">
+          <Concatenate folderLocation="whoami" />
 
           <div className="flex flex-col gap-2">
             <p className="text-2xl text-brand-400 text-glow-brand">
@@ -33,54 +26,15 @@ export default function WhoAmI() {
           </div>
 
           {/* skills */}
-
           <div className="flex flex-col gap-8">
             <div className="flex flex-col gap-1">
-              <div className="flex flex-row gap-1">
-                <p className="text-secondary-400 text-glow-secondary">
-                  joellevoogt
-                </p>
-                <p className="text-brand-400">:~/about$</p>
-                <p className="text-surface-200">cat </p>
-                <p className="text-surface-200">./skills.txt</p>
-              </div>
+              <Concatenate folderLocation="cat ./skills.txt" />
             </div>
-            <div className="flex flex-col gap-2 pl-8">
-              <div className="flex flex-row items-center gap-2 text-md">
-                <div>
-                  <ArrowRight className="text-secondary-400 text-glow-secondary w-6 h-6" />
-                </div>
-                <div>
-                  <p className="text-surface-50">Git & Github</p>
-                </div>
-              </div>
-
-              <div className="flex flex-row items-center gap-2 text-md">
-                <div>
-                  <ArrowRight className="text-secondary-400 text-glow-secondary w-6 h-6" />
-                </div>
-                <div>
-                  <p className="text-surface-50">Component Libraries</p>
-                </div>
-              </div>
-
-              <div className="flex flex-row items-center gap-2 text-md">
-                <div>
-                  <ArrowRight className="text-secondary-400 text-glow-secondary w-6 h-6" />
-                </div>
-                <div>
-                  <p className="text-surface-50">Responsive Web Development</p>
-                </div>
-              </div>
-
-              <div className="flex flex-row items-center gap-2 text-md">
-                <div>
-                  <ArrowRight className="text-secondary-400 text-glow-secondary w-6 h-6" />
-                </div>
-                <div>
-                  <p className="text-surface-50">Accessibility: WCAG 2.2</p>
-                </div>
-              </div>
+            <div className="flex flex-col gap-2 pl-2 md:pl-6">
+              <Skill text="Git & Github" />
+              <Skill text="Component Libraries" />
+              <Skill text="Responsive Web Development" />
+              <Skill text="Accessibility: WCAG 2.2" />
             </div>
           </div>
         </div>
