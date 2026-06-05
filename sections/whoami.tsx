@@ -1,5 +1,3 @@
-import Link from "next/link";
-import Image from "next/image";
 import Terminal from "@/components/terminal";
 import Skill from "@/components/skill";
 import Concatenate from "@/components/concatenate";
@@ -7,12 +5,12 @@ import Concatenate from "@/components/concatenate";
 export default function WhoAmI() {
   return (
     <div
-      className="min-h-screen max-w-5xl w-full mx-auto flex justify-start items-center p-4"
+      className="font-mono min-h-screen max-w-5xl w-full mx-auto flex justify-start items-center p-4"
       id="whoami"
     >
       <Terminal folder="about">
         {/* whoami */}
-        <div className="font-mono flex flex-col gap-18 my-6">
+        <div className="flex flex-col gap-18 my-6">
           <div className="flex flex-col gap-5">
             <Concatenate folderLocation="whoami" />
             <div className="flex flex-col gap-2">
