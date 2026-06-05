@@ -18,7 +18,7 @@ export default function Socials({
           <a
             className="underline underline-offset-8 decoration-dashed decoration-brand-400"
             href={destination}
-            target="_blank"
+            target={destination.startsWith("mailto:") ? "_self" : "_blank"}
           >
             {url}
           </a>
