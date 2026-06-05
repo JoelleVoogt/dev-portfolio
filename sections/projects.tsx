@@ -9,7 +9,7 @@ export default function Projects() {
       id="projects"
     >
       <Terminal folder="projects">
-        <p className="text-sm text-mist-100 font-mono">Projects</p>
+        <p className="text-sm text-surface-200 font-mono">Projects</p>
       </Terminal>
     </div>
   );
