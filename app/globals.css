@@ -30,6 +30,7 @@
   --color-secondary-900: #331400;
   --color-secondary-950: #240e00;
 
+  --color-surface-0: #ffffff;
   --color-surface-50: #f2f2f2;
   --color-surface-100: #e6e6e6;
   --color-surface-200: #cccccc;
@@ -41,6 +42,9 @@
   --color-surface-800: #333333;
   --color-surface-900: #1a1a1a;
   --color-surface-950: #121212;
+
+  --shadow-brand: 0 0 20px 0 rgba(0, 255, 65, 0.5);
+  --shadow-secondary: 0 0 20px 0 rgba(255, 102, 0, 0.5);
 }
 
 @theme inline {

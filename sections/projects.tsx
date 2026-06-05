@@ -3,6 +3,7 @@ import Image from "next/image";
 import Terminal from "@/components/terminal";
 import Concatenate from "@/components/concatenate";
 import Directories from "@/components/directories";
+import Button from "@/components/button";
 
 export default function Projects() {
   return (
@@ -43,6 +44,12 @@ export default function Projects() {
                 path="/music-player/"
               ></Directories>
             </div>
+
+            <Button
+              variant="primary"
+              text="./open --url"
+              destination="https://start-building-with-next-js.vercel.app/"
+            />
           </div>
         </div>
       </Terminal>

@@ -26,7 +26,7 @@ export default function Contact() {
               <Socials
                 social="LINKEDIN"
                 destination="https://www.linkedin.com/in/joelle-voogt/"
-                url="Connect on Linkedin"
+                url="Let's connect"
               />
               <Socials
                 social="GMAIL"
