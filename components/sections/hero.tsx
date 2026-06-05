@@ -8,16 +8,16 @@ export default function Hero() {
         <div className="flex flex-col md:flex-row justify-start items-center gap-8">
           <Image
             src="/avatar-mobile.png"
-            width={200}
-            height={200}
+            width={160}
+            height={160}
             className="block md:hidden border-2 border-green-400 rounded-smz§
             drop-shadow-[0_0_10px_rgba(0,255,65,0.50)]"
             alt="Photo of Joelle Voogt"
           />
           <Image
             src="/avatar-desktop.png"
-            width={160}
-            height={160}
+            width={200}
+            height={200}
             className="hidden md:block border-2 border-green-400 rounded-sm
             drop-shadow-[0_0_10px_rgba(0,255,65,0.50)]"
             alt="Photo of Joelle Voogt"
