@@ -35,7 +35,7 @@ export default function Projects() {
               <Directories
                 parent="dev"
                 subdirectory="2026"
-                path="/dodge-the-meteor-game/"
+                path="/dodge-the-meteor/"
               ></Directories>
               <Directories
                 parent="dev"
