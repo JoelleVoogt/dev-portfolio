@@ -18,11 +18,11 @@ export default function Terminal({
       <div className="flex p-4 border-b  border-[#00AA2A]">
         <div className="flex gap-1.5 items-center">
           <span className="inline-block w-3 h-3 rounded-full bg-[#FF5F56]" />
-          <span className="inline-block w-3 h-3 rounded-full bg-[#FFBD2E]" />
+          <span className="inline-block w-3 h-3 rounded-full bg-[##FFBD2E]" />
           <span className="inline-block w-3 h-3 rounded-full bg-[#27CA40]" />
         </div>
         <div className="flex w-full justify-center">
-          <p className="text-base text-mist-400">{getFolder(folder)}</p>
+          <p className="text-sm text-[#666] font-mono">{getFolder(folder)}</p>
         </div>
       </div>
 

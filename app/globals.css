@@ -22,7 +22,7 @@
   --color-secondary-100: #ffe0cc;
   --color-secondary-200: #ffc299;
   --color-secondary-300: #ffa366;
-  --color-secondary-400: #ff8533;
+  --color-secondary-400: #ff7418;
   --color-secondary-500: #ff6600;
   --color-secondary-600: #cc5200;
   --color-secondary-700: #993d00;
@@ -35,7 +35,7 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-mono: var(--font-jetbrains-mono);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -67,4 +67,18 @@ html {
     color: var(--background);
     box-shadow: inset 200px 0 0 0 var(--color-brand-500);
   }
+}
+
+@utility text-glow-secondary {
+  text-shadow:
+    0 0 5px #f60,
+    0 0 10px #f60,
+    0 0 20px rgba(255, 102, 0, 0.3);
+}
+
+@utility text-glow-brand {
+  text-shadow:
+    0 0 5px var(--color-brand-400),
+    0 0 10px var(--color-brand-400),
+    0 0 20px color-mix(in srgb, var(--color-brand-400) 30%, transparent);
 }

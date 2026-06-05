@@ -1,12 +1,10 @@
 import "./globals.css";
-import Image from "next/image";
-import Link from "next/link";
-import Nav from "../components/sections/nav";
-import Hero from "@/components/sections/hero";
-import WhoAmI from "@/components/sections/whoami";
-import Projects from "@/components/sections/projects";
-import Contact from "@/components/sections/contact";
-import Footer from "@/components/sections/footer";
+import Nav from "../sections/nav";
+import Hero from "@/sections/hero";
+import WhoAmI from "@/sections/whoami";
+import Projects from "@/sections/projects";
+import Contact from "@/sections/contact";
+import Footer from "@/sections/footer";
 
 export default function Home() {
   return (

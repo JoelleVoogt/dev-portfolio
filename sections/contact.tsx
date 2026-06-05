@@ -1,6 +1,4 @@
-import Link from "next/link";
-import Image from "next/image";
-import Terminal from "@/components/sections/terminal";
+import Terminal from "@/components/terminal";
 
 export default function Contact() {
   return (

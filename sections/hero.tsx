@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image";
 
 export default function Hero() {
@@ -8,8 +7,8 @@ export default function Hero() {
         <div className="flex flex-col md:flex-row justify-start items-center gap-8">
           <Image
             src="/avatar-mobile.png"
-            width={200}
-            height={200}
+            width={160}
+            height={160}
             className="block md:hidden border-2 border-green-400 rounded-smz§
             drop-shadow-[0_0_10px_rgba(0,255,65,0.50)]"
             alt="Photo of Joelle Voogt"
@@ -40,7 +39,7 @@ export default function Hero() {
           />
         </div>
       </div>
-      <div className="grid gap-y-3 w-full font-mono text-sm md:text-base grid-cols-[96px_56px_1fr] md:grid-cols-[176px_80px_1fr] drop-shadow-[0_0_10px_rgba(0,255,65,0.30)]">
+      <div className="grid gap-y-2 md:gap-y-3 w-full font-mono text-sm md:text-base grid-cols-[96px_56px_1fr] md:grid-cols-[176px_80px_1fr] drop-shadow-[0_0_10px_rgba(0,255,65,0.30)]">
         <span className="text-mist-400 tracking-widest">SYSTEM</span>
         <span className="text-brand-400">[OK]</span>
         <span className="text-white">Portfolio v8.2 loaded</span>
