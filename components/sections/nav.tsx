@@ -9,14 +9,14 @@ export default function Nav() {
             joellevoogt:~$
           </Link>
         </div>
-        <div className="text-sm text-brand-600 font-mono space-x-2 md:space-x-8 flex items-center">
-          <Link className="hover:text-brand-400" href="#whoami">
+        <div className="text-sm text-brand-400 font-mono gap-4 md:gap-8 flex items-center">
+          <Link className="nav-link" href="#whoami">
             whoami
           </Link>
-          <Link className="hover:text-brand-400" href="#projects">
+          <Link className="nav-link" href="#projects">
             projects
           </Link>
-          <Link className="hover:text-brand-400" href="#contact">
+          <Link className="nav-link" href="#contact">
             contact
           </Link>
         </div>
