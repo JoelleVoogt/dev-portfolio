@@ -47,7 +47,7 @@ export default function Projects() {
             </div>
 
             <ProjectWindow location="./dodge-meteor/README.md" year="2026" />
-            <div className="relative hidden md:block w-full h-[560px] border border-brand-700 rounded-sm shadow-brand shadow-brand-card">
+            <div className="relative hidden md:block w-full h-[560px] border border-brand-700 rounded-sm shadow-brand shadow-brand-card overflow-hidden">
               <Image
                 src="/projects/dodge-the-meteor-desktop.png"
                 fill
@@ -56,7 +56,7 @@ export default function Projects() {
               />
             </div>
 
-            <div className="relative block md:hidden w-full h-[240] border border-brand-700 rounded-sm shadow-brand shadow-brand-card">
+            <div className="relative block md:hidden w-full h-[240] border border-brand-700 rounded-sm shadow-brand shadow-brand-card overflow-hidden">
               <Image
                 src="/projects/dodge-the-meteor-mobile.png"
                 fill
