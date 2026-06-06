@@ -46,13 +46,19 @@ export default function Projects() {
               ></Directories>
             </div>
 
-            <ProjectWindow
-              location="./state-of-icm-report/README.md"
-              year="2026"
-            />
+            <ProjectWindow location="./dodge-meteor/README.md" year="2026" />
             <div className="relative hidden md:block w-full h-[560px] border border-brand-700 rounded-sm shadow-brand shadow-brand-card">
               <Image
                 src="/projects/dodge-the-meteor-desktop.png"
+                fill
+                className="object-cover"
+                alt="Image of the game alien trying to dodge the meteor"
+              />
+            </div>
+
+            <div className="relative block md:hidden w-full h-[240] border border-brand-700 rounded-sm shadow-brand shadow-brand-card">
+              <Image
+                src="/projects/dodge-the-meteor-mobile.png"
                 fill
                 className="object-cover"
                 alt="Image of the game alien trying to dodge the meteor"
