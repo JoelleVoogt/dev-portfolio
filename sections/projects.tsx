@@ -4,6 +4,7 @@ import Terminal from "@/components/terminal";
 import Concatenate from "@/components/concatenate";
 import Directories from "@/components/directories";
 import Button from "@/components/button";
+import ProjectWindow from "@/components/projectwindow";
 
 export default function Projects() {
   return (
@@ -44,6 +45,11 @@ export default function Projects() {
                 path="/music-player/"
               ></Directories>
             </div>
+
+            <ProjectWindow
+              location="./state-of-icm-report/README.md"
+              year="2026"
+            />
 
             <Button
               variant="primary"
