@@ -33,7 +33,7 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${jetbrainsMono.variable} h-full antialiased`}
     >
-      <body className="min-h-ful  l flex flex-col">
+      <body className="min-h-full flex flex-col">
         {children}
         <div
           className="fixed inset-0 z-40 pointer-events-none"
