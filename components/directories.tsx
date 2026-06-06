@@ -8,7 +8,7 @@ export default function Directories({
   path: string;
 }) {
   return (
-    <div className="flex flex-row items-center gap-2 border-b border-b-surface-800 py-3">
+    <div className="text-sm md:text-base flex flex-row items-center gap-4 border-b border-b-surface-800 last:border-b-0 py-3">
       <p className="text-secondary-400">{parent}</p>
       <p className="text-surface-400">{subdirectory}</p>
       <p className="text-surface-200">{path}</p>

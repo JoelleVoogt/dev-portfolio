@@ -27,22 +27,22 @@ export default function Projects() {
               <Directories
                 parent="dev"
                 subdirectory="2026"
-                path="/nextjs-dashboard/"
+                path="/ nextjs-dashboard /"
               ></Directories>
               <Directories
                 parent="dev"
                 subdirectory="2026"
-                path="/rock-paper-scissors/"
+                path="/ rock-paper-scissors /"
               ></Directories>
               <Directories
                 parent="dev"
                 subdirectory="2026"
-                path="/dodge-the-meteor/"
+                path="/ dodge-the-meteor /"
               ></Directories>
               <Directories
                 parent="dev"
                 subdirectory="2026"
-                path="/music-player/"
+                path="/ music-player /"
               ></Directories>
             </div>
 
