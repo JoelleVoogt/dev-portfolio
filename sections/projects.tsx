@@ -1,10 +1,8 @@
-import Link from "next/link";
-import Image from "next/image";
 import Terminal from "@/components/terminal";
 import Concatenate from "@/components/concatenate";
 import Directories from "@/components/directories";
-import Button from "@/components/button";
-import ProjectWindow from "@/components/projectwindow";
+import { projects } from "@/data/projects";
+import ProjectCard from "@/components/projectcard";
 
 export default function Projects() {
   return (
@@ -46,29 +44,11 @@ export default function Projects() {
               ></Directories>
             </div>
 
-            <ProjectWindow location="dodge-the-meteor" year="2026" />
-            <div className="relative hidden md:block w-full h-[560px] border border-brand-700 rounded-sm shadow-brand shadow-brand-card overflow-hidden">
-              <Image
-                src="/projects/dodge-the-meteor-desktop.png"
-                fill
-                className="object-cover"
-                alt="Image of the game alien trying to dodge the meteor"
-              />
+            <div className="flex flex-col gap-24">
+              {projects.map((project) => (
+                <ProjectCard key={project.slug} project={project} />
+              ))}
             </div>
-
-            <div className="relative block md:hidden w-full h-[240] border border-brand-700 rounded-sm shadow-brand shadow-brand-card overflow-hidden">
-              <Image
-                src="/projects/dodge-the-meteor-mobile.png"
-                fill
-                className="object-cover"
-                alt="Image of the game alien trying to dodge the meteor"
-              />
-            </div>
-            <Button
-              variant="primary"
-              text="./open --url"
-              destination="https://start-building-with-next-js.vercel.app/"
-            />
           </div>
         </div>
       </Terminal>
