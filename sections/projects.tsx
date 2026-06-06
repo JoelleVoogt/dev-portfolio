@@ -46,10 +46,7 @@ export default function Projects() {
               ></Directories>
             </div>
 
-            <ProjectWindow
-              location="./dodge-the-meteor/README.md"
-              year="2026"
-            />
+            <ProjectWindow location="dodge-the-meteor" year="2026" />
             <div className="relative hidden md:block w-full h-[560px] border border-brand-700 rounded-sm shadow-brand shadow-brand-card overflow-hidden">
               <Image
                 src="/projects/dodge-the-meteor-desktop.png"

@@ -23,7 +23,7 @@ export default function WhoAmI() {
               <p className="text-surface-200">
                 Front-end Developer with a UX background
               </p>
-              <p className="text-surface-600">// Based in Delft, Netherlands</p>
+              <p className="text-surface-400">// Based in Delft, Netherlands</p>
             </div>
           </div>
 
