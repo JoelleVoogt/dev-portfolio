@@ -9,7 +9,7 @@ import ProjectWindow from "@/components/projectwindow";
 export default function Projects() {
   return (
     <div
-      className="font-mono min-h-screen max-w-5xl w-full mx-auto flex justify-start items-center p-4"
+      className="font-mono min-h-screen max-w-5xl w-full mx-auto my-24 md:my-32 flex justify-start items-center p-4"
       id="projects"
     >
       <Terminal folder="projects">

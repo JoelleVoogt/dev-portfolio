@@ -10,16 +10,14 @@ export default function Hero() {
             src="/avatar-mobile.png"
             width={160}
             height={160}
-            className="block md:hidden border-2 border-green-400 rounded-smz§
-            shadow-brand"
+            className="block md:hidden border-2 border-green-400 rounded-sm shadow-brand"
             alt="Photo of Joelle Voogt"
           />
           <Image
             src="/avatar-desktop.png"
             width={200}
             height={200}
-            className="hidden md:block border-2 border-green-400 rounded-sm
-            shadow-brand"
+            className="hidden md:block border-2 border-green-400 rounded-sm shadow-brand"
             alt="Photo of Joelle Voogt"
           />
           <Image
