@@ -51,6 +51,15 @@ export default function Projects() {
               year="2026"
             />
 
+            <div className="relative hidden md:block w-full h-[560px] border border-brand-700 rounded-sm shadow-brand shadow-brand-card">
+              <Image
+                src="/projects/dodge-the-meteor-desktop.png"
+                fill
+                className="object-cover"
+                alt="Image of the game alien trying to dodge the meteor"
+              />
+            </div>
+
             <Button
               variant="primary"
               text="./open --url"

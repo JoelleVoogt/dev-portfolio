@@ -45,6 +45,9 @@
 
   --shadow-brand: 0 0 20px 0 rgba(0, 255, 65, 0.5);
   --shadow-secondary: 0 0 20px 0 rgba(255, 102, 0, 0.5);
+
+  --shadow-brand-card:
+    0 0 20px 0 rgba(0, 255, 65, 0.2), inset 0 0 40px 1px rgba(0, 0, 0, 0.5);
 }
 
 @theme inline {
