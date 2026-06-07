@@ -1,4 +1,3 @@
-"use client";
 // import { useRef, useState } from "react";
 // import { ArrowRight, Music, Pause } from "lucide-react";
 import { ArrowRight } from "lucide-react";
