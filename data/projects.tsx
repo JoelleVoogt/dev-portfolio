@@ -15,7 +15,7 @@ export const projects: Project[] = [
     year: "2026",
     title: "Next.js dashboard",
     description: "Building a demo site with all the latest features.",
-    tags: ["Next.js", "TypeScript", "JavaScript"],
+    tags: ["Next.js", "TypeScript", "JavaScript", "Tailwind"],
     desktopImage: "/projects/nextjs-dashboard-desktop.png",
     mobileImage: "/projects/nextjs-dashboard-mobile.png",
     url: "https://start-building-with-next-js.vercel.app/",
