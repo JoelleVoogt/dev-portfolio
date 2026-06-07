@@ -34,7 +34,9 @@ export default function ProjectCard({ project }: { project: Project }) {
             <TagList tags={project.tags} />
             <div className="flex flex-col gap-2">
               <h3 className="font-bold text-base">{project.title}</h3>
-              <p className="text-surface-300">{project.description}</p>
+              <p className="text-surface-300 text-sm md:text-base">
+                {project.description}
+              </p>
             </div>
           </div>
 
