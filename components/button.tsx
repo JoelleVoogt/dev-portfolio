@@ -21,13 +21,14 @@ export default function Button({
   icon?: "arrow" | "music" | "pause";
 }) {
   return (
-    <div
+    <a
+      href={destination}
+      target="_blank"
+      rel="noopener noreferrer"
       className={`flex flex-row px-4 py-3 w-fit gap-3 items-center font-bold ${buttonVariants[variant]}`}
     >
       {icon && <ArrowRight className="text-glow-secondary w-6 h-6 shrink-0" />}
-      <a href={destination} target="_blank" rel="noopener noreferrer">
-        {text}
-      </a>
-    </div>
+      {text}
+    </a>
   );
 }

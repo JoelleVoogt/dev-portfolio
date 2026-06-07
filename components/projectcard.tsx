@@ -10,23 +10,27 @@ export default function ProjectCard({ project }: { project: Project }) {
       <ProjectWindow location={project.slug} year={project.year} />
 
       <div className="flex flex-col gap-8 px-4 py-6 md:px-6 md:py-8 border border-brand-400 rounded-b-sm border-t-0">
-        <div className="relative hidden md:block w-full h-[520px] border border-brand-700 rounded-t-sm shadow-brand shadow-brand-card overflow-hidden">
-          <Image
-            src={project.desktopImage}
-            fill
-            className="object-cover"
-            alt={project.title}
-          />
-        </div>
+        <a href={project.url} target="_blank" rel="noopener noreferrer">
+          <div className="relative hidden md:block w-full h-[520px] border border-brand-700 rounded-sm project-image hover:shadow-brand duration-30 overflow-hidden">
+            <Image
+              src={project.desktopImage}
+              fill
+              className="object-cover"
+              alt={project.title}
+            />
+          </div>
+        </a>
 
-        <div className="relative block md:hidden w-full h-[240px] border border-brand-700 rounded-sm shadow-brand shadow-brand-card overflow-hidden">
-          <Image
-            src={project.mobileImage}
-            fill
-            className="object-cover"
-            alt={project.title}
-          />
-        </div>
+        <a href={project.url} target="_blank" rel="noopener noreferrer">
+          <div className="relative block md:hidden w-full h-[240px] border border-brand-700 rounded-sm project-image hover:shadow-brand duration-30 overflow-hidden">
+            <Image
+              src={project.mobileImage}
+              fill
+              className="object-cover"
+              alt={project.title}
+            />
+          </div>
+        </a>
 
         <div className="flex flex-col gap-8">
           {/* Mobile layout */}

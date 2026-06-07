@@ -16,7 +16,7 @@ export default function Socials({
         <ArrowRight className="text-brand-400 text-glow-secondary w-6 h-6 shrink-0" />
         <div className="text-surface-100">
           <a
-            className="underline underline-offset-8 decoration-dashed decoration-brand-400"
+            className="link-button underline underline-offset-8 decoration-dashed decoration-brand-400"
             href={destination}
             target={destination.startsWith("mailto:") ? "_self" : "_blank"}
           >
