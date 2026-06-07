@@ -13,9 +13,9 @@ export default function ProjectWindow({
             ${" "}
           </span>
           <span className="hidden md:inline">cat .</span>
-          <span>/</span>
-          <span>{location}</span>
-          <span>/README.md</span>
+          <span>/ </span>
+          <span>{location} </span>
+          <span>/ README.md</span>
         </p>
         <p className="hidden md:block">
           <span className="text-sm text-surface-400">{year}</span>
