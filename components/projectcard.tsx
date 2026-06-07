@@ -39,8 +39,8 @@ export default function ProjectCard({ project }: { project: Project }) {
           </div>
 
           {/* Desktop layout */}
-          <div className="hidden md:flex md:flex-col md:items-start md:gap-4">
-            <div className="flex flex-row items-center place-content-between w-full">
+          <div className="hidden md:flex md:flex-col md:items-start md:gap-2">
+            <div className="flex flex-row items-end place-content-between w-full">
               <h3 className="font-bold text-lg">{project.title}</h3>
               <TagList tags={project.tags} />
             </div>

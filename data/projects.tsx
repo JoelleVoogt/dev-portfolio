@@ -14,8 +14,7 @@ export const projects: Project[] = [
     slug: "nextjs-dashboard",
     year: "2026",
     title: "Next.js dashboard",
-    description:
-      "Learning the foundations of Next.js by building a demo site with all the latest features.",
+    description: "Building a demo site with all the latest features.",
     tags: ["Next.js", "TypeScript", "JavaScript"],
     desktopImage: "/projects/nextjs-dashboard-desktop.png",
     mobileImage: "/projects/nextjs-dashboard-mobile.png",
@@ -45,7 +44,7 @@ export const projects: Project[] = [
     slug: "music-player",
     year: "2026",
     title: "Music Player",
-    description: "Music player build wtih mainly JavaScript with freeCodeCamp.",
+    description: "Music player wtih mainly JavaScript with freeCodeCamp.",
     tags: ["JavaScript", "CSS", "HTML"],
     desktopImage: "/projects/music-player-desktop.png",
     mobileImage: "/projects/music-player-mobile.png",
@@ -56,7 +55,7 @@ export const projects: Project[] = [
     year: "2026",
     title: "Shopping Cart",
     description:
-      "An interactive shopping cart built with mainly JavaScript from the freeCodeCamp training.",
+      "Shopping cart with mainly JavaScript from the freeCodeCamp training.",
     tags: ["JavaScript", "CSS", "HTML"],
     desktopImage: "/projects/shopping-cart-desktop.png",
     mobileImage: "/projects/shopping-cart-mobile.png",
