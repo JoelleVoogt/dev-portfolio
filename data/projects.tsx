@@ -15,7 +15,7 @@ export const projects: Project[] = [
     year: "2026",
     title: "Next.js dashboard",
     description:
-      "Learning the foundations of Next.js by building a demo website that uses all the latest features.",
+      "Learning the foundations of Next.js by building a demo site with all the latest features.",
     tags: ["Next.js", "TypeScript", "JavaScript"],
     desktopImage: "/projects/nextjs-dashboard-desktop.png",
     mobileImage: "/projects/nextjs-dashboard-mobile.png",
@@ -39,7 +39,7 @@ export const projects: Project[] = [
     tags: ["JavaScript", "CSS", "HTML"],
     desktopImage: "/projects/rock-paper-scissors-desktop.png",
     mobileImage: "/projects/rock-paper-scissors-mobile.png",
-    url: "https://start-building-with-next-js.vercel.app/",
+    url: "https://odin-rock-paper-scissor-ten.vercel.app/",
   },
   {
     slug: "music-player",

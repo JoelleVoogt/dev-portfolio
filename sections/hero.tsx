@@ -1,5 +1,6 @@
 import Image from "next/image";
 import SystemBoot from "@/components/systemboot";
+import Button from "@/components/button";
 
 export default function Hero() {
   return (
@@ -51,9 +52,11 @@ export default function Hero() {
         />
       </div>
 
-      <div className="flex items-center gap-2 w-full text-sm text-brand-400 drop-shadow-[0_0_10px_rgba(0,255,65,0.30)]">
-        <p>System ready. Scroll to explore.</p>
-        <span className="w-3 h-5 bg-brand-400 animate-pulse" />
+      <div className="flex items-start gap-2 w-full place-content-between text-sm text-brand-400 drop-shadow-[0_0_10px_rgba(0,255,65,0.30)]">
+        <div className="flex gap-4 items-center ">
+          <p>System ready. Scroll to explore.</p>
+          <span className="w-3 h-5 bg-brand-400 animate-pulse" />
+        </div>
       </div>
     </div>
   );
