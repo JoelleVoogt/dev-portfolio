@@ -32,7 +32,7 @@ export const projects: Project[] = [
     url: "https://scratch.mit.edu/projects/1324363015/",
   },
   {
-    slug: "rock-paper-scissors",
+    slug: "rock-paper-scissor",
     year: "2026",
     title: "Rock, Paper, Scissors",
     description: "A rock paper scissors game with The Odin Project.",
