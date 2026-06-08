@@ -7,17 +7,12 @@ import { type Project } from "@/data/projects";
 export default function ProjectCard({ project }: { project: Project }) {
   return (
     <>
-      <a
-        href={project.url}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="hover:shadow-brand hover:translate-x-1 duration-300 transition-all"
-      >
-        <div className="flex flex-col bg-[#00FF41]/6 shadow-brand-card">
+      <a href={project.url} target="_blank" rel="noopener noreferrer">
+        <div className="flex flex-col bg-brand-500/5 shadow-brand-card hover:shadow-brand hover:translate-x-1 duration-300 transition-all hover:bg-brand-500/10">
           <ProjectWindow location={project.slug} year={project.year} />
 
           {/* Mobile image */}
-          <div className="relative block md:hidden w-full h-[240px] border border-brand-700 rounded-sm project-image duration-30 overflow-hidden">
+          <div className="relative block md:hidden w-full h-[240px] border border-brand-700 rounded-sm project-image duration-30 overflow-hidden hover:border-2 hover:glow-brand">
             <Image
               src={project.mobileImage}
               fill
