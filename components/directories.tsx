@@ -25,7 +25,7 @@ export default function Directories({
         <span className="text-surface-200">{path}</span>
       </Link>
       {previewImage && (
-        <div className="hidden rounded-sm md:block absolute left-120 top-1/2 -translate-y-1/2 w-[520px] h-[320px] bg-surface-950 border border-brand-700 opacity-0 group-hover:opacity-100 transition-opacity duration-200 overflow-hidden z-10">
+        <div className="hidden rounded-sm md:block absolute left-136 top-1/2 -translate-y-1/2 w-[520px] h-[320px] bg-surface-950 border border-brand-700 opacity-0 group-hover:opacity-100 transition-opacity duration-200 overflow-hidden z-10">
           <p className="absolute inset-0 flex items-center justify-center text-brand-400 text-xs z-10 group-hover:animate-pixel-reveal">
             // LOADING IMAGE...
           </p>
