@@ -56,13 +56,16 @@ export default function Hero() {
         />
       </div>
 
-      <div className="flex items-start gap-2 w-full place-content-between text-brand-400 drop-shadow-[0_0_10px_rgba(0,255,65,0.30)] text-base">
+      <div className="flex items-start gap-2 w-full place-content-between text-brand-400 text-glow-brand text-base">
         <div
-          className="flex gap-4 items-center animate-typing"
+          className="flex gap-3 items-center animate-typing"
           style={{ animationDelay: "1.2s" }}
         >
           <p>System ready. Scroll to explore.</p>
-          <span className="w-3 h-5 bg-brand-400 animate-pulse " />
+          <span
+            className="w-[1.1ch] h-[1.3em] bg-brand-400 glow-brand animate-blink "
+            style={{ animationDelay: "1.2s", animationFillMode: "backwards" }}
+          />
         </div>
       </div>
     </div>
