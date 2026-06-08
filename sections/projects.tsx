@@ -7,7 +7,7 @@ import ProjectCard from "@/components/projectcard";
 export default function Projects() {
   return (
     <div
-      className="font-mono min-h-screen max-w-5xl w-full mx-auto my-24 md:my-32 flex justify-start items-center p-4"
+      className="font-mono min-h-screen max-w-7xl w-full mx-auto my-24 md:my-32 flex justify-start items-center p-4"
       id="projects"
     >
       <Terminal folder="projects">
@@ -44,7 +44,7 @@ export default function Projects() {
               ></Directories>
             </div>
 
-            <div className="flex flex-col gap-24">
+            <div className="flex flex-col gap-24 md:gap-36">
               {projects.map((project) => (
                 <ProjectCard key={project.slug} project={project} />
               ))}
