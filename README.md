@@ -10,11 +10,35 @@ Live: [joellevoogt.vercel.app](https://joellevoogt.vercel.app)
 - TypeScript
 - Tailwind v4
 
-## Architecture
+## Design System
 
-Custom design system built in `globals.css` using Tailwind v4 `@theme`
-blocks — no config file. Includes color scales, spacing tokens, and
-reusable utility classes.
+Built entirely in `globals.css` using Tailwind v4 `@theme` blocks — no config file.
+
+**Color scales**
+
+- `brand` — green (50–950)
+- `secondary` — orange (50–950)
+- `surface` — neutral (0–950)
+
+**Shadow tokens**
+
+- `--shadow-brand` — green glow
+- `--shadow-secondary` — orange glow
+- `--shadow-brand-card` — card glow with inset depth
+
+**Custom utilities**
+
+- `text-glow-brand` / `text-glow-secondary` — layered text glow effects
+- `project-image` — hover-animated box shadow
+- `link-button` — inset fill animation on hover
+
+**Typography**
+
+- Poppins (body)
+- JetBrains Mono (mono)
+- Geist Sans (UI)
+
+## Architecture
 
 Components are composed from nested sub-components for flexibility
 and reuse. Project data is managed in a dedicated `projects.tsx`

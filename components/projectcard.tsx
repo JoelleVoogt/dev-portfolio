@@ -16,22 +16,26 @@ export default function ProjectCard({ project }: { project: Project }) {
         <div className="flex flex-col bg-[#00FF41]/6 shadow-brand-card">
           <ProjectWindow location={project.slug} year={project.year} />
 
+          {/* Mobile image */}
+          <div className="relative block md:hidden w-full h-[240px] border border-brand-700 rounded-sm project-image duration-30 overflow-hidden">
+            <Image
+              src={project.mobileImage}
+              fill
+              className="object-cover"
+              alt={project.title}
+              sizes="100vw"
+            />
+          </div>
+
+          {/* Desktop image */}
           <div className="flex flex-col gap-10 px-4 py-8 md:px-6 md:py-8 border border-brand-400 rounded-b-sm border-t-0">
-            <div className="relative hidden md:block w-full h-[520px] border border-brand-700 rounded-sm project-image duration-30 overflow-hidden">
+            <div className="relative hidden md:block w-full h-[664px] border border-brand-700 rounded-sm project-image duration-30 overflow-hidden">
               <Image
                 src={project.desktopImage}
                 fill
                 className="object-cover"
                 alt={project.title}
-              />
-            </div>
-
-            <div className="relative block md:hidden w-full h-[240px] border border-brand-700 rounded-sm project-image duration-30 overflow-hidden">
-              <Image
-                src={project.mobileImage}
-                fill
-                className="object-cover"
-                alt={project.title}
+                sizes="min-width: 768px) 100vw, 0px"
               />
             </div>
 
@@ -67,6 +71,7 @@ export default function ProjectCard({ project }: { project: Project }) {
                 text="./open --url"
                 destination={project.url}
                 icon="arrow"
+                asChild
               />
             </div>
           </div>

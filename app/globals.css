@@ -74,6 +74,7 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Terminal hover appearance */
 @layer base {
   .link-button {
     box-shadow: inset 0 0 0 0 var(--color-brand-500);
@@ -88,6 +89,7 @@ html {
   }
 }
 
+/* Glow for text effect */
 @utility text-glow-secondary {
   text-shadow:
     0 0 5px #ff8c33,
@@ -102,7 +104,19 @@ html {
     0 0 20px color-mix(in srgb, var(--color-brand-400) 30%, transparent);
 }
 
-@utility project-image {
-  box-shadow: 0 0 0 0 transparent;
-  transition: box-shadow 0.3s ease-in-out;
+/* Typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@utility animate-typing {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing 0.6s steps(20, end) forwards;
 }
