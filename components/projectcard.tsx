@@ -34,7 +34,7 @@ export default function ProjectCard({ project }: { project: Project }) {
               />
             </div>
 
-            <div className="flex flex-col gap-10">
+            <div className="flex flex-col gap-8">
               {/* Mobile layout */}
               <div className="flex flex-col gap-6 md:hidden">
                 <TagList tags={project.tags} />
