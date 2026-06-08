@@ -8,23 +8,23 @@ export default function ProjectCard({ project }: { project: Project }) {
   return (
     <>
       <a href={project.url} target="_blank" rel="noopener noreferrer">
-        <div className="flex flex-col bg-brand-500/5 shadow-brand-card hover:shadow-brand hover:translate-x-1 duration-300 transition-all hover:bg-brand-500/10">
+        <div className="flex flex-col bg-brand-500/5 shadow-brand-card hover:shadow-brand hover:translate-x-1 duration-300 transition-all md:hover:bg-brand-500/10 md:hover:glow-brand">
           <ProjectWindow location={project.slug} year={project.year} />
 
           {/* Mobile image */}
-          <div className="relative block md:hidden w-full h-[240px] border border-brand-700 rounded-sm project-image duration-30 overflow-hidden hover:border-2 hover:glow-brand">
+          <div className="relative block md:hidden w-full h-[240px] border border-brand-400 border-t-0 project-image duration-30 overflow-hidden">
             <Image
               src={project.mobileImage}
               fill
               className="object-cover"
               alt={project.title}
-              sizes="100vw"
+              // sizes="100vw"
             />
           </div>
 
           {/* Desktop image */}
           <div className="flex flex-col gap-10 px-4 py-8 md:px-6 md:py-8 border border-brand-400 rounded-b-sm border-t-0">
-            <div className="relative hidden md:block w-full h-[664px] border border-brand-700 rounded-sm project-image duration-30 overflow-hidden">
+            <div className="relative hidden md:block w-full h-[664px] md:border border-brand-700 md:rounded-sm project-image duration-30 overflow-hidden">
               <Image
                 src={project.desktopImage}
                 fill
