@@ -7,7 +7,7 @@ export default function Skill({ text }: { text: string }) {
         <ArrowRight className="text-secondary-400 text-glow-secondary w-6 h-6 shrink-0" />
       </div>
       <div>
-        <p className="text-surface-50">{text}</p>
+        <p className="text-surface-200">{text}</p>
       </div>
     </div>
   );
