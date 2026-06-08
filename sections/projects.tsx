@@ -26,27 +26,44 @@ export default function Projects() {
                 parent="dev"
                 subdirectory="2026"
                 path="/ nextjs-dashboard /"
-              ></Directories>
-              <Directories
-                parent="dev"
-                subdirectory="2026"
-                path="/ rock-paper-scissors /"
+                previewImage="/projects/nextjs-dashboard-desktop.png"
+                href="#nextjs-dashboard"
               ></Directories>
               <Directories
                 parent="dev"
                 subdirectory="2026"
                 path="/ dodge-the-meteor /"
+                previewImage="/projects/dodge-the-meteor-desktop.png"
+                href="#dodge-the-meteor"
+              ></Directories>
+              <Directories
+                parent="dev"
+                subdirectory="2026"
+                path="/ rock-paper-scissors /"
+                previewImage="/projects/rock-paper-scissors-desktop.png"
+                href="#rock-paper-scissors"
               ></Directories>
               <Directories
                 parent="dev"
                 subdirectory="2026"
                 path="/ music-player /"
+                previewImage="/projects/music-player-desktop.png"
+                href="#music-player"
+              ></Directories>
+              <Directories
+                parent="dev"
+                subdirectory="2026"
+                path="/ shopping-cart /"
+                previewImage="/projects/shopping-cart-desktop.png"
+                href="#shopping-cart"
               ></Directories>
             </div>
 
             <div className="flex flex-col gap-24 md:gap-36">
               {projects.map((project) => (
-                <ProjectCard key={project.slug} project={project} />
+                <div key={project.slug} id={project.slug}>
+                  <ProjectCard project={project} />
+                </div>
               ))}
             </div>
           </div>

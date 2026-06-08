@@ -12,14 +12,18 @@ export default function Hero() {
             width={160}
             height={160}
             className="block md:hidden border-2 border-green-400 rounded-sm shadow-brand"
+            style={{ height: "auto" }}
             alt="Photo of Joelle Voogt"
+            loading="eager"
           />
           <Image
             src="/avatar-desktop.png"
             width={200}
             height={200}
             className="hidden md:block border-2 border-green-400 rounded-sm shadow-brand"
+            style={{ height: "auto" }}
             alt="Photo of Joelle Voogt"
+            loading="eager"
           />
           <Image
             src="/joellevoogt-mobile.svg"

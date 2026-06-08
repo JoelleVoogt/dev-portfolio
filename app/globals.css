@@ -120,3 +120,17 @@ html {
   width: 0;
   animation: typing 0.6s steps(20, end) forwards;
 }
+
+/* Load hover state Directory images with CRT screen drawing */
+@keyframes crt-draw {
+  from {
+    clip-path: inset(0 0 100% 0);
+  }
+  to {
+    clip-path: inset(0 0 0% 0);
+  }
+}
+
+@utility animate-crt-draw {
+  animation: crt-draw 0.6s steps(12, end) forwards;
+}
