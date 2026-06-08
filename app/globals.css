@@ -145,7 +145,6 @@ html {
 }
 
 /* Glow for span elements */
-
 @utility glow-brand {
   box-shadow:
     0 0 5px var(--color-brand-400),

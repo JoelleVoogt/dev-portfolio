@@ -8,7 +8,7 @@ export default function ProjectCard({ project }: { project: Project }) {
   return (
     <>
       <a href={project.url} target="_blank" rel="noopener noreferrer">
-        <div className="flex flex-col bg-brand-500/5 shadow-brand-card hover:shadow-brand hover:translate-x-1 duration-300 transition-all md:hover:bg-brand-500/10 md:hover:glow-brand">
+        <div className="flex flex-col bg-brand-500/5 shadow-brand-card hover:shadow-brand hover:scale-[1.01] duration-300 transition-all md:hover:bg-brand-500/10 md:hover:glow-brand">
           <ProjectWindow location={project.slug} year={project.year} />
 
           {/* Mobile image */}
