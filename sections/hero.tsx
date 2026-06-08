@@ -12,20 +12,16 @@ export default function Hero() {
             width={160}
             height={160}
             className="block md:hidden border-2 border-green-400 rounded-sm shadow-brand"
-            style={{ height: "auto" }}
             alt="Photo of Joelle Voogt"
-            loading="eager"
           />
           <Image
             src="/avatar-desktop.png"
             width={200}
             height={200}
             className="hidden md:block border-2 border-green-400 rounded-sm shadow-brand"
-            style={{ height: "auto" }}
             alt="Photo of Joelle Voogt"
-            loading="eager"
           />
-          <Image
+          <img
             src="/joellevoogt-mobile.svg"
             width={355}
             height={54}
@@ -33,7 +29,7 @@ export default function Hero() {
             drop-shadow-[0_0_10px_rgba(0,255,65,0.50)]"
             alt="ASCII of Joelle Voogt"
           />
-          <Image
+          <img
             src="/joellevoogt-desktop.svg"
             width={760}
             height={132}
