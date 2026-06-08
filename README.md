@@ -12,9 +12,18 @@ Live: [joellevoogt.vercel.app](https://joellevoogt.vercel.app)
 
 ## Architecture
 
-Custom design system built in `globals.css` using Tailwind v4 `@theme` blocks — no config file. Includes color scales, spacing tokens, and reusable utility classes.
+Custom design system built in `globals.css` using Tailwind v4 `@theme`
+blocks — no config file. Includes color scales, spacing tokens, and
+reusable utility classes.
 
-Components are composed from nested sub-components for flexibility and reuse.
+Components are composed from nested sub-components for flexibility
+and reuse. Project data is managed in a dedicated `projects.tsx`
+data component, keeping content separate from presentation.
+
+## Components
+
+`Button` `ProjectCard` `ProjectWindow` `Tag` `TagList` `Skill`
+`Socials` `SystemBoot` `Terminal` `Directories` `Concatenate`
 
 ## Sections
 
