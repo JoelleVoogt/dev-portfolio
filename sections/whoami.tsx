@@ -5,7 +5,7 @@ import Concatenate from "@/components/concatenate";
 export default function WhoAmI() {
   return (
     <div
-      className="font-mono min-h-screen max-w-5xl w-full mx-auto flex justify-start items-center p-4"
+      className="font-mono min-h-screen max-w-5xl w-full mx-auto flex justify-start items-center p-4 text-base"
       id="whoami"
     >
       <Terminal folder="about">
@@ -23,7 +23,7 @@ export default function WhoAmI() {
               <p className="text-surface-200">
                 Front-end Developer with a UX background
               </p>
-              <p className="text-surface-400">// Based in Delft, Netherlands</p>
+              <p className="text-surface-500">// Based in Delft, Netherlands</p>
             </div>
           </div>
 
@@ -35,7 +35,7 @@ export default function WhoAmI() {
                 folderLocationSecond="cat ./skills.txt"
               />
             </div>
-            <div className="flex flex-col gap-2 pl-2 md:pl-6">
+            <div className="flex flex-col gap-2 pl-2 md:pl-6 text-md">
               <Skill text="Git & Github" />
               <Skill text="Component Libraries" />
               <Skill text="Responsive Web Development" />

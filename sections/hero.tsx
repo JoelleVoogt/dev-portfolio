@@ -56,7 +56,7 @@ export default function Hero() {
         />
       </div>
 
-      <div className="flex items-start gap-2 w-full place-content-between text-sm text-brand-400 drop-shadow-[0_0_10px_rgba(0,255,65,0.30)]">
+      <div className="flex items-start gap-2 w-full place-content-between text-brand-400 drop-shadow-[0_0_10px_rgba(0,255,65,0.30)] text-base">
         <div
           className="flex gap-4 items-center animate-typing"
           style={{ animationDelay: "1.2s" }}
