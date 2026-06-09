@@ -29,7 +29,7 @@ export default function Contact() {
                 url="Let's connect"
               />
               <Socials
-                social="GMAIL"
+                social="EMAIL"
                 destination="mailto:joelle.iris@gmail.com"
                 url="Send me a message"
               />
