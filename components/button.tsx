@@ -13,14 +13,16 @@ export default function Button({
   destination,
   icon,
   asChild = false,
+  className = "",
 }: {
   variant: "primary" | "ghost";
   text: string;
   destination: string;
   icon?: "arrow" | "music" | "pause";
   asChild?: boolean;
+  className?: string;
 }) {
-  const classes = `flex flex-row px-4 py-3 w-fit gap-3 items-center font-bold ${buttonVariants[variant]}`;
+  const classes = `flex flex-row justify-center px-4 py-3 gap-3 items-center font-bold ${buttonVariants[variant]}`;
   const content = (
     <>
       {icon && <ArrowRight className="text-glow-secondary w-6 h-6 shrink-0" />}
@@ -34,7 +36,7 @@ export default function Button({
       href={destination}
       target="_blank"
       rel="noopener noreferrer"
-      className={`flex flex-row px-4 py-3 w-fit gap-3 items-center font-bold ${buttonVariants[variant]}`}
+      className={classes}
     >
       {icon && <ArrowRight className="text-glow-secondary w-6 h-6 shrink-0" />}
       {text}

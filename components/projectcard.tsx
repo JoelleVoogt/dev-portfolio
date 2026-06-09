@@ -58,12 +58,13 @@ export default function ProjectCard({ project }: { project: Project }) {
               </div>
             </div>
 
-            <div className="flex flex-col md:flex-row gap-4">
+            <div className="flex flex-col md:flex-row gap-3 md:gap-4 w-full">
               <Button
                 variant="primary"
                 text="./open --url"
                 destination={project.url}
                 icon="arrow"
+                className="w-full md:w-auto"
               />
               {project.repoUrl && (
                 <Button
@@ -71,6 +72,7 @@ export default function ProjectCard({ project }: { project: Project }) {
                   text="./open --repo"
                   destination={project.repoUrl}
                   icon="arrow"
+                  className="w-full md:w-auto"
                 />
               )}
             </div>
