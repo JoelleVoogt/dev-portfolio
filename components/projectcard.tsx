@@ -58,7 +58,7 @@ export default function ProjectCard({ project }: { project: Project }) {
               </div>
             </div>
 
-            <div className="flex flex-row gap-4">
+            <div className="flex flex-col md:flex-row gap-4">
               <Button
                 variant="primary"
                 text="./open --url"
