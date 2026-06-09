@@ -22,7 +22,7 @@ export default function ProjectCard({ project }: { project: Project }) {
         </div>
 
         {/* Desktop image */}
-        <div className="flex flex-col gap-10 px-4 py-8 md:px-6 md:py-8 border border-brand-400 rounded-b-sm border-t-0">
+        <div className="flex flex-col gap-6 px-4 py-8 md:px-6 md:py-8 border border-brand-400 rounded-b-sm border-t-0">
           <div className="relative hidden md:block w-full h-[664px] md:border border-brand-700 md:rounded-sm project-image duration-30 overflow-hidden">
             <Image
               src={project.desktopImage}
@@ -33,7 +33,7 @@ export default function ProjectCard({ project }: { project: Project }) {
             />
           </div>
 
-          <div className="flex flex-col gap-8 md:gap-10">
+          <div className="flex flex-col gap-8 md:gap-6">
             {/* Mobile layout */}
             <div className="flex flex-col gap-6 md:hidden">
               <TagList tags={project.tags} />
