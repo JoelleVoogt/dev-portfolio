@@ -23,7 +23,7 @@ export default function ProjectCard({ project }: { project: Project }) {
 
         {/* Desktop image */}
         <div className="flex flex-col gap-6 px-4 py-8 md:px-6 md:py-8 border border-brand-400 rounded-b-sm border-t-0">
-          <div className="relative hidden md:block w-full h-[664px] md:border border-brand-700 md:rounded-sm project-image duration-30 overflow-hidden">
+          <div className="relative hidden md:block w-full h-[600px] md:border border-brand-700 md:rounded-sm project-image duration-30 overflow-hidden">
             <Image
               src={project.desktopImage}
               fill
