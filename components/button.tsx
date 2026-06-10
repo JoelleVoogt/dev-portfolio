@@ -22,7 +22,7 @@ export default function Button({
   asChild?: boolean;
   className?: string;
 }) {
-  const classes = `flex flex-row justify-center px-4 py-3 gap-3 items-center font-bold ${buttonVariants[variant]}`;
+  const classes = `flex flex-row justify-center py-2 py-2 md:px-4 md:py-3 gap-3 items-center font-bold ${buttonVariants[variant]}`;
   const content = (
     <>
       {icon && <ArrowRight className="text-glow-secondary w-6 h-6 shrink-0" />}
