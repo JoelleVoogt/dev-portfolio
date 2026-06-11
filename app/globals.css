@@ -92,10 +92,10 @@ html {
 /* Blink for system boot */
 @keyframes blink {
   0%,
-  70% {
+  60% {
     opacity: 1;
   }
-  71%,
+  61%,
   100% {
     opacity: 0;
   }
