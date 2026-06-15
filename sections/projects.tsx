@@ -43,7 +43,7 @@ export default function Projects() {
                 previewImage="/projects/music-player-desktop.png"
                 href="#music-player"
               ></Directories>
-              <Directories
+              {/* <Directories
                 parent="dev"
                 subdirectory="2026"
                 path="/ dodge-the-meteor /"
@@ -56,7 +56,7 @@ export default function Projects() {
                 path="/ shopping-cart /"
                 previewImage="/projects/shopping-cart-desktop.png"
                 href="#shopping-cart"
-              ></Directories>
+              ></Directories> */}
             </div>
 
             <div className="flex flex-col gap-24 md:gap-36">
