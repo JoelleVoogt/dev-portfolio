@@ -25,6 +25,13 @@ export default function Projects() {
               <Directories
                 parent="dev"
                 subdirectory="2026"
+                path="/ typography-playground /"
+                previewImage="/projects/typography-desktop.png"
+                href="#typography-playground"
+              ></Directories>
+              <Directories
+                parent="dev"
+                subdirectory="2026"
                 path="/ nextjs-dashboard /"
                 previewImage="/projects/nextjs-dashboard-desktop.png"
                 href="#nextjs-dashboard"
@@ -32,23 +39,16 @@ export default function Projects() {
               <Directories
                 parent="dev"
                 subdirectory="2026"
-                path="/ dodge-the-meteor /"
-                previewImage="/projects/dodge-the-meteor-desktop.png"
-                href="#dodge-the-meteor"
-              ></Directories>
-              <Directories
-                parent="dev"
-                subdirectory="2026"
-                path="/ rock-paper-scissors /"
-                previewImage="/projects/rock-paper-scissors-desktop.png"
-                href="#rock-paper-scissors"
-              ></Directories>
-              <Directories
-                parent="dev"
-                subdirectory="2026"
                 path="/ music-player /"
                 previewImage="/projects/music-player-desktop.png"
                 href="#music-player"
+              ></Directories>
+              <Directories
+                parent="dev"
+                subdirectory="2026"
+                path="/ dodge-the-meteor /"
+                previewImage="/projects/dodge-the-meteor-desktop.png"
+                href="#dodge-the-meteor"
               ></Directories>
               <Directories
                 parent="dev"

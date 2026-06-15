@@ -12,6 +12,17 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    slug: "typography-playground",
+    year: "2026",
+    title: "Typography Playground",
+    description: "A playground to test font weights of different families.",
+    tags: ["React", "Typescript"],
+    desktopImage: "/projects/typography-desktop.png",
+    mobileImage: "/projects/typography-mobile.png",
+    url: "https://typography-playground-nine.vercel.app/",
+    repoUrl: "https://github.com/JoelleVoogt/Typography-Playground",
+  },
+  {
     slug: "nextjs-dashboard",
     year: "2026",
     title: "Next.js dashboard",
@@ -54,16 +65,5 @@ export const projects: Project[] = [
     mobileImage: "/projects/shopping-cart-mobile.png",
     url: "https://shopping-cart-omega-sand.vercel.app/",
     repoUrl: "https://github.com/JoelleVoogt/shopping-cart",
-  },
-  {
-    slug: "rock-paper-scissors",
-    year: "2026",
-    title: "Rock, Paper, Scissors",
-    description: "A rock paper scissors game for The Odin Project.",
-    tags: ["JavaScript", "CSS", "HTML"],
-    desktopImage: "/projects/rock-paper-scissors-desktop.png",
-    mobileImage: "/projects/rock-paper-scissors-mobile.png",
-    url: "https://odin-rock-paper-scissor-ten.vercel.app/",
-    repoUrl: "https://github.com/JoelleVoogt/odin-rock-paper-scissor",
   },
 ];
