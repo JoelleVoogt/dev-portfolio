@@ -17,7 +17,7 @@ export default function SmoothScrollLinks() {
       if (!href?.startsWith("#")) return;
 
       e.preventDefault();
-      lenis.scrollTo(href);
+      lenis.scrollTo(href === "#" ? 0 : href);
     };
 
     document.addEventListener("click", handleClick);

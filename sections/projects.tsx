@@ -59,7 +59,7 @@ export default function Projects() {
               ></Directories> */}
             </div>
 
-            <div className="flex flex-col gap-24 md:gap-36">
+            <div className="flex flex-col gap-24 md:gap-56">
               {projects.map((project) => (
                 <div key={project.slug} id={project.slug}>
                   <ProjectCard project={project} />

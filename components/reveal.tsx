@@ -15,6 +15,15 @@ export default function Reveal({
     const el = ref.current;
     if (!el) return;
 
+    // If the element is already in view on load, show it immediately without animation
+    const rect = el.getBoundingClientRect();
+    if (rect.top < window.innerHeight) {
+      el.style.opacity = "1";
+      el.style.transform = "translateY(0)";
+      el.style.transition = "none";
+      return;
+    }
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -23,7 +32,7 @@ export default function Reveal({
           observer.disconnect();
         }
       },
-      { rootMargin: "0px 0px -80px 0px", threshold: 0.05 }
+      { rootMargin: "0px 0px -100px 0px", threshold: 0.12 }
     );
 
     observer.observe(el);
@@ -38,7 +47,7 @@ export default function Reveal({
         opacity: 0,
         transform: "translateY(48px)",
         transition: `opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1), transform 0.9s cubic-bezier(0.16, 1, 0.3, 1)`,
-        transitionDelay: `${delay}ms`,
+        transitionDelay: delay ? `${delay}ms` : undefined,
       }}
     >
       {children}
