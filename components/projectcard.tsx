@@ -11,7 +11,7 @@ export default function ProjectCard({ project }: { project: Project }) {
         <ProjectWindow location={project.slug} year={project.year} />
 
         {/* Mobile image */}
-        <div className="relative block md:hidden w-full h-[200px] border border-brand-400 border-t-0 project-image duration-30 overflow-hidden">
+        <div className="relative block md:hidden w-full h-[240px] border border-brand-400 border-t-0 project-image duration-30 overflow-hidden">
           <Image
             src={project.mobileImage}
             fill
