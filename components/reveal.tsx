@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import { useLenis } from "lenis/react";
 
 export default function Reveal({
@@ -11,32 +11,34 @@ export default function Reveal({
   delay?: number;
 }) {
   const ref = useRef<HTMLDivElement>(null);
-  const revealed = useRef(false);
+  const [visible, setVisible] = useState(false);
+  const triggered = useRef(false);
 
-  const show = (el: HTMLDivElement, animate: boolean) => {
-    revealed.current = true;
-    if (!animate) el.style.transition = "none";
-    el.style.opacity = "1";
-    el.style.transform = "translateY(0)";
+  const trigger = () => {
+    if (triggered.current) return;
+    triggered.current = true;
+    setVisible(true);
   };
 
-  // Reveal on scroll via Lenis
   useLenis(() => {
-    if (revealed.current) return;
-    const el = ref.current;
-    if (!el) return;
-    if (el.getBoundingClientRect().top < window.innerHeight - 160) {
-      show(el, true);
+    if (triggered.current || !ref.current) return;
+    if (ref.current.getBoundingClientRect().top < window.innerHeight * 0.88) {
+      trigger();
     }
   });
 
-  // Reveal immediately if already in viewport on mount
   useEffect(() => {
     const el = ref.current;
-    if (!el || revealed.current) return;
-    if (el.getBoundingClientRect().top < window.innerHeight - 160) {
-      show(el, false);
-    }
+    if (!el) return;
+
+    const check = () => {
+      if (triggered.current) return;
+      if (el.getBoundingClientRect().top < window.innerHeight * 0.88) trigger();
+    };
+
+    window.addEventListener("scroll", check, { passive: true });
+    check();
+    return () => window.removeEventListener("scroll", check);
   }, []);
 
   return (
@@ -44,9 +46,10 @@ export default function Reveal({
       ref={ref}
       style={{
         width: "100%",
-        opacity: 0,
-        transform: "translateY(48px)",
-        transition: `opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1), transform 0.9s cubic-bezier(0.16, 1, 0.3, 1)`,
+        opacity: visible ? 1 : 0,
+        transform: visible ? "translateY(0)" : "translateY(48px)",
+        transition:
+          "opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1), transform 0.9s cubic-bezier(0.16, 1, 0.3, 1)",
         transitionDelay: delay ? `${delay}ms` : undefined,
       }}
     >
