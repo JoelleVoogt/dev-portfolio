@@ -2,8 +2,6 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { JetBrains_Mono } from "next/font/google";
-import { ReactLenis } from "lenis/react";
-import SmoothScrollLinks from "@/components/smoothscrolllinks";
 
 const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
@@ -37,10 +35,7 @@ export default function RootLayout({
       className={`${geistSans.variable} ${jetbrainsMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <ReactLenis root>
-          <SmoothScrollLinks />
-          {children}
-        </ReactLenis>
+        {children}
         <div
           className="fixed inset-0 z-40 pointer-events-none"
           style={{

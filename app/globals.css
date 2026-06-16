@@ -70,6 +70,10 @@ body {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Typing effect */
 @keyframes typing {
   from {
