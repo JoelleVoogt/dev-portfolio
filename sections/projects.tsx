@@ -26,7 +26,7 @@ export default function Projects() {
                 parent="dev"
                 subdirectory="2026"
                 path="/ typography-playground /"
-                previewImage="/projects/typography-desktop.png"
+                previewImage="/projects/typography-desktop4.png"
                 href="#typography-playground"
               ></Directories>
               <Directories
