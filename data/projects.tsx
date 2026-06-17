@@ -16,7 +16,7 @@ export const projects: Project[] = [
     year: "2026",
     title: "Typography Playground",
     description: "A playground to test font weights of different families.",
-    tags: ["Next.js", "React", "TypeScript"],
+    tags: ["Next.js", "TypeScript", "Tailwind"],
     desktopImage: "/projects/typography-desktop4.png",
     mobileImage: "/projects/typography-mobile4.png",
     url: "https://typography-playground-nine.vercel.app/",
