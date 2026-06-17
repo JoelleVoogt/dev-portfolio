@@ -25,7 +25,7 @@ export default function Projects() {
               <Directories
                 parent="dev"
                 subdirectory="2026"
-                path="/ typography /"
+                path="/ typography-lab /"
                 previewImage="/projects/typography-desktop4.png"
                 href="#typography-playground"
               ></Directories>

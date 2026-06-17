@@ -12,9 +12,9 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    slug: "typography",
+    slug: "typography-lab",
     year: "2026",
-    title: "Typography Playground",
+    title: "Typography Lab",
     description: "A playground to test font weights of different families.",
     tags: ["Next.js", "TypeScript", "Tailwind"],
     desktopImage: "/projects/typography-desktop4.png",
