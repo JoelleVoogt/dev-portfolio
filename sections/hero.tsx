@@ -4,7 +4,7 @@ import Button from "@/components/button";
 
 export default function Hero() {
   return (
-    <div className="font-mono min-h-screen flex flex-col justify-center items-center p-4 gap-8">
+    <div id="hero" className="font-mono min-h-screen flex flex-col justify-center items-center p-4 gap-8">
       <div className="flex justify-start items-center">
         <div className="flex flex-col md:flex-row justify-start items-center gap-8">
           <Image
