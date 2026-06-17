@@ -4,7 +4,10 @@ import Button from "@/components/button";
 
 export default function Hero() {
   return (
-    <div id="hero" className="font-mono min-h-screen flex flex-col justify-center items-center p-4 gap-8">
+    <div
+      id="hero"
+      className="font-mono min-h-screen flex flex-col justify-center items-center p-4 gap-8"
+    >
       <div className="flex justify-start items-center">
         <div className="flex flex-col md:flex-row justify-start items-center gap-8">
           <Image
@@ -42,7 +45,11 @@ export default function Hero() {
       <div className="grid gap-y-2 md:gap-y-3 w-full text-sm md:text-base grid-cols-[104px_56px_1fr] md:grid-cols-[176px_80px_1fr] drop-shadow-[0_0_10px_rgba(0,255,65,0.30)]">
         <SystemBoot boot="SYSTEM" status="Portfolio v8.2 loaded" delay="0.2s" />
         <SystemBoot boot="ROLE" status="Front-end Developer" delay="0.4s" />
-        <SystemBoot boot="STACK" status="HTML, CSS, JavaScript" delay="0.6s" />
+        <SystemBoot
+          boot="STACK"
+          status="React | TypeScript | Tailwind"
+          delay="0.6s"
+        />
         <SystemBoot boot="CERTIFIED" status="7 years UX/UI" delay="0.8s" />
         <SystemBoot
           boot="STATUS"

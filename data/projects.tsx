@@ -38,7 +38,7 @@ export const projects: Project[] = [
     year: "2026",
     title: "Music Player",
     description: "Music player wtih mainly JavaScript for freeCodeCamp.",
-    tags: ["JavaScript", "CSS", "HTML"],
+    tags: ["HTML", "CSS", "JavaScript"],
     desktopImage: "/projects/music-player-desktop.png",
     mobileImage: "/projects/music-player-mobile2.png",
     url: "https://music-player-pink-nine.vercel.app/",
