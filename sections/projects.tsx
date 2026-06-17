@@ -18,7 +18,7 @@ export default function Projects() {
                 folderLocationFirst="~/projects$"
                 folderLocationSecond="ls -la"
               />
-              <p className="text-surface-400">// total 4 featured projects</p>
+              <p className="text-surface-400">// total 3 featured projects</p>
             </div>
 
             <div>
