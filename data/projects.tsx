@@ -19,8 +19,8 @@ export const projects: Project[] = [
     tags: ["React", "TypeScript", "Tailwind"],
     desktopImage: "/projects/typography-desktop4.png",
     mobileImage: "/projects/typography-mobile4.png",
-    url: "https://typography-playground-nine.vercel.app/",
-    repoUrl: "https://github.com/JoelleVoogt/Typography-Playground",
+    url: "https://typography-lab.vercel.app/",
+    repoUrl: "https://github.com/JoelleVoogt/Typography-Lab",
   },
   {
     slug: "nextjs-dashboard",
