@@ -53,7 +53,7 @@ export default function Hero() {
         <SystemBoot boot="CERTIFIED" status="7 jaar UX/UI" delay="0.8s" />
         <SystemBoot
           boot="STATUS"
-          status="Klaar voor de volgende stap"
+          status="Gereed"
           statusColor="text-secondary-400"
           delay="1.0s"
         />
