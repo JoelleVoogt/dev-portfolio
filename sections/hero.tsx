@@ -43,17 +43,21 @@ export default function Hero() {
         </div>
       </div>
       <div className="grid gap-y-2 md:gap-y-3 w-full text-sm md:text-base grid-cols-[104px_56px_1fr] md:grid-cols-[176px_80px_1fr] drop-shadow-[0_0_10px_rgba(0,255,65,0.30)]">
-        <SystemBoot boot="SYSTEM" status="Portfolio ingeladen" delay="0.2s" />
-        <SystemBoot boot="ROLE" status="Front-end Developer" delay="0.4s" />
+        <SystemBoot
+          boot="ACHTERGROND"
+          status="Portfolio v8 ingeladen"
+          delay="0.2s"
+        />
+        <SystemBoot boot="ROL" status="Front-end Developer" delay="0.4s" />
         <SystemBoot
           boot="STACK"
           status="Next.js, React, TypeScript, Tailwind"
           delay="0.6s"
         />
-        <SystemBoot boot="CERTIFIED" status="7 jaar UX/UI" delay="0.8s" />
+        <SystemBoot boot="ERVARING  " status="7 jaar UX/UI" delay="0.8s" />
         <SystemBoot
-          boot="STATUS"
-          status="Gereed"
+          boot="KLANTEN"
+          status="G-STAR RAW, Booking.com, Auping, Quooker"
           statusColor="text-secondary-400"
           delay="1.0s"
         />
