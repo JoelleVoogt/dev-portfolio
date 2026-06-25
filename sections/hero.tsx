@@ -66,7 +66,10 @@ export default function Hero() {
         >
           <div className="flex flex-col w-full max-w-4xl">
             {/* <p>System ready. Scroll to explore.</p> */}
-            <p>Ik bouw schaalbare, mooie en toegankelijk interfaces</p>
+            <p>
+              Ik bouw toegankelijke, schaalbare interfaces, gedragen door een
+              heldere architectuur
+            </p>
           </div>
           <span
             className="w-[1.1ch] h-[1.3em] bg-brand-400 glow-brand animate-blink "
