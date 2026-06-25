@@ -16,12 +16,12 @@ export default function WhoAmI() {
               folderLocationFirst="~/about$"
               folderLocationSecond="whoami"
             />
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-4">
               <p className="text-2xl text-brand-400 text-glow-brand">
                 Joelle Voogt
               </p>
 
-              <div className="flex flex-col py-2 gap-4">
+              <div className="flex flex-col py-2 gap-8  ">
                 <p className="text-surface-50">
                   Mijn werk klopt tot in de details: doordachte structuren die
                   herbruikbaar en onderhoudbaar zijn, afgewerkt tot op de pixel.
