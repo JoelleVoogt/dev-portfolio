@@ -20,9 +20,15 @@ export default function WhoAmI() {
               <p className="text-2xl text-brand-400 text-glow-brand">
                 Joelle Voogt
               </p>
-              <p className="text-surface-200">
-                Front-end Developer with a UX background
-              </p>
+
+              <div className="flex flex-col py-2 gap-4">
+                <p className="text-surface-50">
+                  Mijn werk klopt tot in de details: doordachte structuren die
+                  herbruikbaar en onderhoudbaar zijn, afgewerkt tot op de pixel.
+                  Het is voor mij pas af als het voor iedereen werkt, op elk
+                  scherm, in elke staat. Die scherpte komt uit mijn designjaren.
+                </p>
+              </div>
               <p className="text-surface-500">// Based in Delft, Netherlands</p>
             </div>
           </div>
@@ -36,10 +42,10 @@ export default function WhoAmI() {
               />
             </div>
             <div className="flex flex-col gap-2 pl-2 md:pl-6 text-md">
-              <Skill text="Git & Github" />
-              <Skill text="Component Libraries" />
-              <Skill text="Responsive Web Development" />
               <Skill text="Accessibility: WCAG 2.2" />
+              <Skill text="Component Architecture" />
+              <Skill text="Responsive & Pixel-Perfect UI" />
+              <Skill text="Git & Github" />
             </div>
           </div>
         </div>

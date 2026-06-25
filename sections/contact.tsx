@@ -14,24 +14,26 @@ export default function Contact() {
             folderLocationFirst="~/contact$"
             folderLocationSecond="cat ./links.txt"
           />
-          <div className="flex flex-col gap-4 md:pl-6">
-            <p className="text-surface-400">// Let's connect</p>
+          <div className="flex flex-col gap-8 md:pl-6">
+            <p className="text-surface-400">
+              // Ik ben altijd benieuwd naar interessante mensen en projecten.
+            </p>
 
             <div className="flex flex-col gap-2">
               <Socials
-                social="GITHUB"
-                destination="https://github.com/joellevoogt"
-                url="View my repositories"
+                social="EMAIL"
+                destination="mailto:joelle.iris@gmail.com"
+                url="Stuur een mail"
               />
               <Socials
                 social="LINKEDIN"
                 destination="https://www.linkedin.com/in/joelle-voogt/"
-                url="Let's connect"
+                url="Connect LinkedIn"
               />
               <Socials
-                social="EMAIL"
-                destination="mailto:joelle.iris@gmail.com"
-                url="Send me a message"
+                social="GITHUB"
+                destination="https://github.com/joellevoogt"
+                url="Mijn repositories"
               />
             </div>
           </div>

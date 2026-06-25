@@ -43,17 +43,17 @@ export default function Hero() {
         </div>
       </div>
       <div className="grid gap-y-2 md:gap-y-3 w-full text-sm md:text-base grid-cols-[104px_56px_1fr] md:grid-cols-[176px_80px_1fr] drop-shadow-[0_0_10px_rgba(0,255,65,0.30)]">
-        <SystemBoot boot="SYSTEM" status="Portfolio v8.2 loaded" delay="0.2s" />
+        <SystemBoot boot="SYSTEM" status="Portfolio ingeladen" delay="0.2s" />
         <SystemBoot boot="ROLE" status="Front-end Developer" delay="0.4s" />
         <SystemBoot
           boot="STACK"
-          status="React, TypeScript, Tailwind"
+          status="Next.js, React, TypeScript, Tailwind"
           delay="0.6s"
         />
-        <SystemBoot boot="CERTIFIED" status="7 years UX/UI" delay="0.8s" />
+        <SystemBoot boot="CERTIFIED" status="7 jaar UX/UI" delay="0.8s" />
         <SystemBoot
           boot="STATUS"
-          status="Ready to deploy"
+          status="Klaar voor de volgende stap"
           statusColor="text-secondary-400"
           delay="1.0s"
         />
@@ -64,7 +64,13 @@ export default function Hero() {
           className="flex gap-3 items-center animate-typing"
           style={{ animationDelay: "1.2s" }}
         >
-          <p>System ready. Scroll to explore.</p>
+          <div className="flex flex-col w-full max-w-4xl">
+            {/* <p>System ready. Scroll to explore.</p> */}
+            <p>
+              Ik bouw mooie, toegankelijke en schaalbare interfaces, gebouwd op
+              een schone structuur
+            </p>
+          </div>
           <span
             className="w-[1.1ch] h-[1.3em] bg-brand-400 glow-brand animate-blink "
             style={{ animationDelay: "1.2s", animationFillMode: "backwards" }}

@@ -11,10 +11,10 @@ export default function Nav() {
         </div>
         <div className="text-sm text-brand-400 font-mono gap-2 md:gap-8 flex items-center">
           <Link href="#whoami" className="link-button">
-            whoami
+            over mij
           </Link>
           <Link href="#projects" className="link-button">
-            projects
+            werk
           </Link>
           <Link href="#contact" className="link-button">
             contact

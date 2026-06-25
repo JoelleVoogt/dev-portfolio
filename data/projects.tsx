@@ -15,7 +15,8 @@ export const projects: Project[] = [
     slug: "typography-lab",
     year: "2026",
     title: "Typography Lab",
-    description: "A playground to test font weights of different families.",
+    description:
+      "Een playground om fontgewichten van verschillende families te testen.",
     tags: ["React", "TypeScript", "Tailwind"],
     desktopImage: "/projects/typography-desktop4.png",
     mobileImage: "/projects/typography-mobile4.png",
@@ -25,8 +26,8 @@ export const projects: Project[] = [
   {
     slug: "nextjs-dashboard",
     year: "2026",
-    title: "Next.js dashboard",
-    description: "Building a demo site with all the latest Next.js features.",
+    title: "Next.js Dashboard",
+    description: "Een demosite bouwen met alle nieuwste features van Next.js.",
     tags: ["Next.js", "TypeScript", "Tailwind"],
     desktopImage: "/projects/nextjs-dashboard-desktop.png",
     mobileImage: "/projects/nextjs-dashboard-mobile2.png",
@@ -37,7 +38,8 @@ export const projects: Project[] = [
     slug: "music-player",
     year: "2026",
     title: "Music Player",
-    description: "Music player wtih mainly JavaScript for freeCodeCamp.",
+    description:
+      "Muziekspeler, voornamelijk met JavaScript, gebouwd via freeCodeCamp.",
     tags: ["HTML", "CSS", "JavaScript"],
     desktopImage: "/projects/music-player-desktop.png",
     mobileImage: "/projects/music-player-mobile2.png",
