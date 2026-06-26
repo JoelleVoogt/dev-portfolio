@@ -23,11 +23,13 @@ export default function WhoAmI() {
 
               <div className="flex flex-col py-2 gap-8  ">
                 <p className="text-surface-50">
-                  Mijn werk klopt tot in de details: doordachte structuren die
-                  herbruikbaar en onderhoudbaar zijn, afgewerkt tot op de pixel.
-                  Het is voor mij pas af als het voor iedereen werkt, op elk
-                  scherm, in elke staat. Die scherpte komt uit mijn design
-                  jaren.
+                  Ik ben een Front-end Developer met een passie voor het
+                  vertalen van complexe vraagstukken naar eenvoudige, elegante
+                  interfaces. Ik hecht waarde aan details. Ik bouw doordachte
+                  structuren die herbruikbaar en onderhoudbaar zijn, afgewerkt
+                  tot op de pixel. Het is voor mij pas af als het voor iedereen
+                  werkt, op elk scherm, in elke staat. Die scherpte komt uit
+                  mijn design jaren.
                 </p>
               </div>
               <p className="text-surface-500">// Based in Delft, Netherlands</p>
