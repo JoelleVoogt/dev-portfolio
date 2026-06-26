@@ -1,6 +1,7 @@
 import Terminal from "@/components/terminal";
 import Skill from "@/components/skill";
 import Concatenate from "@/components/concatenate";
+import Tag from "@/components/tag";
 
 export default function WhoAmI() {
   return (
@@ -10,8 +11,8 @@ export default function WhoAmI() {
     >
       <Terminal folder="about">
         {/* whoami */}
-        <div className="flex flex-col gap-18 my-6">
-          <div className="flex flex-col gap-5">
+        <div className="flex flex-col md:flex-row items-start gap-8 md:gap-18 my-6">
+          <div className="flex flex-col gap-5 w-full md:flex-1 md:max-w-3/5">
             <Concatenate
               folderLocationFirst="~/about$"
               folderLocationSecond="whoami"
@@ -21,21 +22,41 @@ export default function WhoAmI() {
                 Joelle Voogt
               </p>
 
-              <div className="flex flex-col py-2 gap-8  ">
+              <div className="flex flex-col py-2 gap-8">
                 <p className="text-surface-50">
-                  Ik ben een Front-end Developer met een passie voor het
-                  vertalen van complexe vraagstukken naar eenvoudige, elegante
-                  interfaces. Ik hecht waarde aan details. Ik bouw doordachte
-                  structuren die herbruikbaar en onderhoudbaar zijn, afgewerkt
-                  tot op de pixel. Het is voor mij pas af als het voor iedereen
-                  werkt, op elk scherm, in elke staat. Die scherpte komt uit
-                  mijn design jaren.
+                  Ik ben een Front-end Developer die complexe vraagstukken
+                  vertaalt naar eenvoudige, elegante interfaces. Ik hecht waarde
+                  aan details. Van pixel-perfecte layouts tot vloeiende
+                  interacties en een consistente gebruikerservaring.
+                </p>
+                <p className="text-surface-50">
+                  Onder die oppervlakte bouw ik doordachte structuren die
+                  herbruikbaar en onderhoudbaar zijn. Voor mij is het pas af als
+                  het voor iedereen werkt, op elk scherm, in elke staat. Die
+                  scherpte komt uit mijn designjaren.
                 </p>
               </div>
-              <p className="text-surface-500">// Based in Delft, Netherlands</p>
+              <p className="text-surface-500">// Locatie: Delft, Nederland</p>
             </div>
           </div>
 
+          <div className="flex flex-wrap gap-5 w-full md:w-2/5 md:shrink-0">
+            <p>technologies</p>
+            <div className="flex flex-wrap gap-3">
+              <Tag label="Next.js" />
+              <Tag label="React" />
+              <Tag label="TypeScript" />
+              <Tag label="Tailwind" />
+              <Tag label="Rest APIs" />
+              <Tag label="Git" />
+              <Tag label="Vercel" />
+              <Tag label="Figma" />
+              <Tag label="JavaScript" />
+              <Tag label="HTML" />
+              <Tag label="CSS" />
+              <Tag label="WCAG" />
+            </div>
+          </div>
           {/* skills */}
           {/* <div className="flex flex-col gap-5">
             <div className="flex flex-col gap-1">
