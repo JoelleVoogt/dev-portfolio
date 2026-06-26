@@ -41,7 +41,7 @@ export default function WhoAmI() {
           </div>
 
           <div className="flex flex-wrap gap-5 w-full md:w-2/5 md:shrink-0">
-            <p>technologies</p>
+            <p>technologieën</p>
             <div className="flex flex-wrap gap-2">
               <Tag label="Next.js" />
               <Tag label="React" />
