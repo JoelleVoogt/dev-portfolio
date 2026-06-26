@@ -16,7 +16,7 @@ export default function Contact() {
           />
           <div className="flex flex-col gap-8 md:pl-6">
             <p className="text-surface-400">
-              // Ik ben altijd benieuwd naar interessante mensen en projecten.
+              // Ik ben altijd benieuwd naar interessante mensen en projecten
             </p>
 
             <div className="flex flex-col gap-2">
