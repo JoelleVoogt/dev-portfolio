@@ -42,7 +42,7 @@ export default function WhoAmI() {
 
           <div className="flex flex-wrap gap-5 w-full md:w-2/5 md:shrink-0">
             <p>technologies</p>
-            <div className="flex flex-wrap gap-3">
+            <div className="flex flex-wrap gap-2">
               <Tag label="Next.js" />
               <Tag label="React" />
               <Tag label="TypeScript" />
