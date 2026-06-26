@@ -26,7 +26,8 @@ export default function WhoAmI() {
                   Mijn werk klopt tot in de details: doordachte structuren die
                   herbruikbaar en onderhoudbaar zijn, afgewerkt tot op de pixel.
                   Het is voor mij pas af als het voor iedereen werkt, op elk
-                  scherm, in elke staat. Die scherpte komt uit mijn designjaren.
+                  scherm, in elke staat. Die scherpte komt uit mijn design
+                  jaren.
                 </p>
               </div>
               <p className="text-surface-500">// Based in Delft, Netherlands</p>
@@ -34,7 +35,7 @@ export default function WhoAmI() {
           </div>
 
           {/* skills */}
-          <div className="flex flex-col gap-5">
+          {/* <div className="flex flex-col gap-5">
             <div className="flex flex-col gap-1">
               <Concatenate
                 folderLocationFirst="~/about$"
@@ -47,7 +48,7 @@ export default function WhoAmI() {
               <Skill text="Responsive & Pixel-Perfect UI" />
               <Skill text="Git & Github" />
             </div>
-          </div>
+          </div> */}
         </div>
       </Terminal>
     </div>
