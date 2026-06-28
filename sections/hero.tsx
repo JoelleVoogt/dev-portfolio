@@ -53,7 +53,7 @@ export default function Hero() {
         <SystemBoot boot="EXPERTISE" status="WCAG 2.2" delay="0.8s" />
         <SystemBoot
           boot="KRACHT"
-          status="Design als fundament onder de stap naar code"
+          status="Design als fundament onder de code"
           statusColor="text-secondary-400"
           delay="1.0s"
         />
