@@ -67,8 +67,8 @@ export default function Hero() {
           <div className="flex flex-col w-full max-w-4xl">
             {/* <p>System ready. Scroll to explore.</p> */}
             <p>
-              Ik bouw toegankelijke, schaalbare interfaces, gedragen door een
-              heldere architectuur
+              Ik bouw mooie, toegankelijke, schaalbare interfaces, gedragen door
+              een heldere architectuur
             </p>
           </div>
           <span
