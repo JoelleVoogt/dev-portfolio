@@ -50,11 +50,7 @@ export default function Hero() {
           delay="0.4s"
         />
         <SystemBoot boot="ACHTERGROND" status="7 jaar UX/UI" delay="0.6s" />
-        <SystemBoot
-          boot="EXPERTISE"
-          status="Accessibility: WCAG 2.2"
-          delay="0.8s"
-        />
+        <SystemBoot boot="EXPERTISE" status="WCAG 2.2" delay="0.8s" />
         <SystemBoot
           boot="KRACHT"
           status="Design als fundament onder de stap naar code"
