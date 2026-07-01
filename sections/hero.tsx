@@ -45,7 +45,7 @@ export default function Hero() {
         <SystemBoot boot="ROL" status="Front-end Developer" delay="0.2s" />
         <SystemBoot
           boot="STACK"
-          status="Next.js, TypeScript, Tailwind"
+          status="Next.js, React,TypeScript, Tailwind"
           delay="0.4s"
         />
         <SystemBoot boot="ACHTERGROND" status="7 jaar UX/UI" delay="0.6s" />
