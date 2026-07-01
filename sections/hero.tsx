@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <div
       id="hero"
-      className="font-mono min-h-screen flex flex-col justify-center items-center p-4 gap-8"
+      className="font-mono min-h-screen flex flex-col justify-center items-center p-4 gap-8 text-sm md:text-base"
     >
       <div className="flex justify-start items-center">
         <div className="flex flex-col md:flex-row justify-start items-center gap-8">
@@ -41,7 +41,7 @@ export default function Hero() {
           />
         </div>
       </div>
-      <div className="grid gap-y-2 md:gap-y-3 w-full text-sm md:text-base grid-cols-[114px_40px_1fr] md:grid-cols-[176px_80px_1fr] drop-shadow-[0_0_10px_rgba(0,255,65,0.30)]">
+      <div className="grid gap-y-2 md:gap-y-3 w-full text-sm md:text-base grid-cols-[124px_52px_1fr] md:grid-cols-[176px_80px_1fr] drop-shadow-[0_0_10px_rgba(0,255,65,0.30)]">
         <SystemBoot boot="ROL" status="Front-end Developer" delay="0.2s" />
         <SystemBoot
           boot="STACK"

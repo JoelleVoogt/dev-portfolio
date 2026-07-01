@@ -14,7 +14,7 @@ export default function Contact() {
             folderLocationFirst="~/contact$"
             folderLocationSecond="cat ./links.txt"
           />
-          <div className="flex flex-col gap-8 md:pl-6">
+          <div className="flex flex-col gap-8 md:pl-6 text-sm md:text-base">
             <p className="text-surface-400">
               // Ik ben altijd benieuwd naar interessante mensen en projecten
             </p>

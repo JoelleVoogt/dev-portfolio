@@ -18,7 +18,7 @@ export default function Projects() {
                 folderLocationFirst="~/projects$"
                 folderLocationSecond="ls -la"
               />
-              <p className="text-surface-400">
+              <p className="text-surface-400 text-sm md:text-base">
                 // totaal 3 uitgelichte projecten
               </p>
             </div>

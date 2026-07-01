@@ -22,7 +22,7 @@ export default function WhoAmI() {
                 Joelle Voogt
               </p>
 
-              <div className="flex flex-col py-2 gap-8">
+              <div className="flex flex-col py-2 gap-8 text-sm md:text-base">
                 <p className="text-surface-50">
                   Ik ben een Front-end Developer die complexe vraagstukken
                   vertaalt naar eenvoudige, elegante interfaces. Ik hecht waarde
@@ -35,8 +35,8 @@ export default function WhoAmI() {
                   het voor iedereen werkt, op elk scherm, in elke staat. Die
                   scherpte komt uit mijn designjaren.
                 </p>
+                <p className="text-surface-500">// Locatie: Delft, Nederland</p>
               </div>
-              <p className="text-surface-500">// Locatie: Delft, Nederland</p>
             </div>
           </div>
 
