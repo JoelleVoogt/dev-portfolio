@@ -27,6 +27,13 @@ export default function Projects() {
               <Directories
                 parent="dev"
                 subdirectory="2026"
+                path="/ color-lab /"
+                previewImage="/projects/color-lab3.png"
+                href="#color-lab"
+              ></Directories>
+              <Directories
+                parent="dev"
+                subdirectory="2026"
                 path="/ typography-lab /"
                 previewImage="/projects/typography-desktop4.png"
                 href="#typography-playground"
@@ -38,13 +45,13 @@ export default function Projects() {
                 previewImage="/projects/nextjs-dashboard-desktop.png"
                 href="#nextjs-dashboard"
               ></Directories>
-              <Directories
+              {/* <Directories
                 parent="dev"
                 subdirectory="2026"
                 path="/ music-player /"
                 previewImage="/projects/music-player-desktop.png"
                 href="#music-player"
-              ></Directories>
+              ></Directories> */}
               {/* <Directories
                 parent="dev"
                 subdirectory="2026"

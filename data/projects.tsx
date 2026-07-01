@@ -12,6 +12,17 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    slug: "color-lab",
+    year: "2026",
+    title: "Color Lab",
+    description: "Genereer vanuit één basiskleur een complete tintschaal.",
+    tags: ["Next.js", "TypeScript", "Tailwind"],
+    desktopImage: "/projects/color-lab3.png",
+    mobileImage: "/projects/color-lab3.png",
+    url: "https://color-lab-delta.vercel.app/",
+    repoUrl: "https://github.com/JoelleVoogt/color-lab",
+  },
+  {
     slug: "typography-lab",
     year: "2026",
     title: "Typography Lab",
@@ -19,7 +30,7 @@ export const projects: Project[] = [
       "Een playground om fontgewichten van verschillende families te testen.",
     tags: ["React", "TypeScript", "Tailwind"],
     desktopImage: "/projects/typography-desktop4.png",
-    mobileImage: "/projects/typography-mobile4.png",
+    mobileImage: "/projects/typography-mobile5.png",
     url: "https://typography-lab.vercel.app/",
     repoUrl: "https://github.com/JoelleVoogt/Typography-Lab",
   },
@@ -34,18 +45,18 @@ export const projects: Project[] = [
     url: "https://start-building-with-next-js.vercel.app/",
     repoUrl: "https://github.com/JoelleVoogt/Start-building-with-Next.js",
   },
-  {
-    slug: "music-player",
-    year: "2026",
-    title: "Music Player",
-    description:
-      "Muziekspeler, voornamelijk met JavaScript, gebouwd via freeCodeCamp.",
-    tags: ["HTML", "CSS", "JavaScript"],
-    desktopImage: "/projects/music-player-desktop.png",
-    mobileImage: "/projects/music-player-mobile2.png",
-    url: "https://music-player-pink-nine.vercel.app/",
-    repoUrl: "https://github.com/JoelleVoogt/music-player",
-  },
+  // {
+  //   slug: "music-player",
+  //   year: "2026",
+  //   title: "Music Player",
+  //   description:
+  //     "Muziekspeler, voornamelijk met JavaScript, gebouwd via freeCodeCamp.",
+  //   tags: ["HTML", "CSS", "JavaScript"],
+  //   desktopImage: "/projects/music-player-desktop.png",
+  //   mobileImage: "/projects/music-player-mobile2.png",
+  //   url: "https://music-player-pink-nine.vercel.app/",
+  //   repoUrl: "https://github.com/JoelleVoogt/music-player",
+  // },
   // {
   //   slug: "dodge-the-meteor",
   //   year: "2026",
