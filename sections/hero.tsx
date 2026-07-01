@@ -1,6 +1,5 @@
 import Image from "next/image";
 import SystemBoot from "@/components/systemboot";
-import Button from "@/components/button";
 
 export default function Hero() {
   return (
@@ -42,11 +41,11 @@ export default function Hero() {
           />
         </div>
       </div>
-      <div className="grid gap-y-2 md:gap-y-3 w-full text-sm md:text-base grid-cols-[104px_56px_1fr] md:grid-cols-[176px_80px_1fr] drop-shadow-[0_0_10px_rgba(0,255,65,0.30)]">
+      <div className="grid gap-y-2 md:gap-y-3 w-full text-sm md:text-base grid-cols-[114px_40px_1fr] md:grid-cols-[176px_80px_1fr] drop-shadow-[0_0_10px_rgba(0,255,65,0.30)]">
         <SystemBoot boot="ROL" status="Front-end Developer" delay="0.2s" />
         <SystemBoot
           boot="STACK"
-          status="Next.js, React, TypeScript, Tailwind"
+          status="Next.js, TypeScript, Tailwind"
           delay="0.4s"
         />
         <SystemBoot boot="ACHTERGROND" status="7 jaar UX/UI" delay="0.6s" />
