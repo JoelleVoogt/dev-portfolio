@@ -44,7 +44,7 @@ export const projects: Project[] = [
     desktopImage: "/projects/nextjs-dashboard-desktop.png",
     mobileImage: "/projects/nextjs-dashboard-mobile2.png",
     url: "https://start-building-with-next-js.vercel.app/",
-    repoUrl: "https://github.com/JoelleVoogt/Start-building-with-Next.js",
+    repoUrl: "https://github.com/JoelleVoogt/Next.js-Dashboard",
   },
   // {
   //   slug: "music-player",
