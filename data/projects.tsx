@@ -17,7 +17,7 @@ export const projects: Project[] = [
     title: "Color Lab",
     description: "Genereer vanuit één basiskleur een complete tintschaal.",
     tags: ["Next.js", "TypeScript", "Tailwind"],
-    desktopImage: "/projects/color-lab1.png",
+    desktopImage: "/projects/color-lab2.png",
     mobileImage: "/projects/color-lab-mobile2.png",
     url: "https://color-lab-delta.vercel.app/",
     repoUrl: "https://github.com/JoelleVoogt/color-lab",
