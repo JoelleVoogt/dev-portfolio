@@ -28,7 +28,7 @@ export default function Projects() {
                 parent="dev"
                 subdirectory="2026"
                 path="/ color-lab /"
-                previewImage="/projects/color-lab3.png"
+                previewImage="/projects/color-lab2.png"
                 href="#color-lab"
               ></Directories>
               <Directories
