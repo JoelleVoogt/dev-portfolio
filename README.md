@@ -4,7 +4,7 @@ Front-end developer met een UX-achtergrond. Gevestigd in Delft.
 
 Live: [joellevoogt.vercel.app](https://joellevoogt.vercel.app)
 
-![Screenshot van de portfolio homepage](public/thumbnail2.png)
+![Screenshot van de portfolio homepage](public/thumbnail3.png)
 
 ## Wat is dit?
 
