@@ -1,6 +1,6 @@
 # Portfolio v8.2 — Joelle Voogt
 
-Dit is mijn portfolio. De site is opgezet als een terminal-thema: een "boot sequence" met systeeminfo, secties die aanvoelen als terminalvensters, en groene glow-accenten op een donkere achtergrond. Het laat zien wie ik ben, waar ik aan gewerkt heb, en hoe iemand contact met me kan opnemen.
+Mjn portfolio waarin ik laat zien wie ik ben en waar ik aan heb gewerkt. De site is opgezet met een terminal-thema.
 
 Live: [joellevoogt.vercel.app](https://joellevoogt.vercel.app)
 
