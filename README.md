@@ -1,6 +1,6 @@
 # Portfolio — Joelle Voogt
 
-Mjn portfolio waarin ik laat zien wie ik ben en waar ik aan heb gewerkt en hoe je contact met mij op kan nemen. De site is opgezet met een terminal-thema en heeft een oud scherm uiterlijk. Tekst en accenten krijgen af en toe een gloed-effect. Allemaal bedoeld om het gevoel van een oude terminal/monitor op te roepen, zonder dat het ten koste gaat van leesbaarheid.
+In mijn portfolio laat ik zien wie ik ben en waar ik aan heb gewerkt en hoe je contact met mij op kan nemen. De site is opgezet met een terminal-thema en heeft een oud scherm uiterlijk. Tekst en accenten krijgen af en toe een gloed-effect. Allemaal bedoeld om het gevoel van een oude terminal/monitor op te roepen, zonder dat het ten koste gaat van leesbaarheid.
 
 Live: [joellevoogt.vercel.app](https://joellevoogt.vercel.app)
 
