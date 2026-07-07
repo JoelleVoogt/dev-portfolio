@@ -1,65 +1,76 @@
 # Portfolio v8.2 — Joelle Voogt
 
-Front-end developer with a UX background. Based in Delft.
+Front-end developer met een UX-achtergrond. Gevestigd in Delft.
 
 Live: [joellevoogt.vercel.app](https://joellevoogt.vercel.app)
 
-## Stack
+![Screenshot van de portfolio homepage](public/thumbnail.png)
 
-- Next.js 15 (App Router)
+## Wat is dit?
+
+Dit is mijn persoonlijke portfolio. De site is opgezet als een
+terminal/hacker-thema: een "boot sequence" met systeeminfo, secties
+die aanvoelen als terminalvensters, en groene glow-accenten op een
+donkere achtergrond. Het laat zien wie ik ben, waar ik aan gewerkt
+heb, en hoe iemand contact met me kan opnemen.
+
+### Secties
+
+- **hero** — intro met avatar, ASCII-naam en een "system boot" met
+  rol, stack, achtergrond en expertise
+- **whoami** (`~/about`) — wie ik ben en welke technologieën ik
+  gebruik
+- **projects** (`~/werk`) — uitgelicht werk, elk project in een
+  eigen "venster"
+- **contact** — e-mail, LinkedIn en GitHub
+
+## Hoe is het opgezet?
+
+**Stack**
+
+- Next.js 16 (App Router)
+- React 19
 - TypeScript
 - Tailwind v4
 
-## Design System
+**Design system**
 
-Built entirely in `globals.css` using Tailwind v4 `@theme` blocks — no config file.
+Volledig opgebouwd in `app/globals.css` met Tailwind v4 `@theme`
+blokken — er is geen `tailwind.config` bestand.
 
-**Color scales**
+- Kleurenschalen: `brand` (groen, 50–950), `secondary` (oranje,
+  50–950), `surface` (neutraal, 0–950)
+- Shadow-tokens: `--shadow-brand`, `--shadow-secondary`,
+  `--shadow-brand-card`
+- Custom utilities: `text-glow-brand` / `text-glow-secondary`
+  (tekst-glow), `project-image` (hover box-shadow),
+  `link-button` (inset fill-animatie)
+- Typografie: Poppins (body), JetBrains Mono (mono), Geist Sans (UI)
 
-- `brand` — green (50–950)
-- `secondary` — orange (50–950)
-- `surface` — neutral (0–950)
+**Architectuur**
 
-**Shadow tokens**
+- `app/` — Next.js routes en globale stijlen
+- `sections/` — de pagina-secties (`hero`, `whoami`, `projects`,
+  `contact`, `nav`, `footer`)
+- `components/` — herbruikbare bouwstenen: `Button`, `ProjectCard`,
+  `ProjectWindow`, `Tag`, `TagList`, `Skill`, `Socials`,
+  `SystemBoot`, `Terminal`, `Directories`, `Concatenate`
+- `data/projects.tsx` — projectdata los van de presentatie, zodat
+  content en layout gescheiden blijven
 
-- `--shadow-brand` — green glow
-- `--shadow-secondary` — orange glow
-- `--shadow-brand-card` — card glow with inset depth
-
-**Custom utilities**
-
-- `text-glow-brand` / `text-glow-secondary` — layered text glow effects
-- `project-image` — hover-animated box shadow
-- `link-button` — inset fill animation on hover
-
-**Typography**
-
-- Poppins (body)
-- JetBrains Mono (mono)
-- Geist Sans (UI)
-
-## Architecture
-
-Components are composed from nested sub-components for flexibility
-and reuse. Project data is managed in a dedicated `projects.tsx`
-data component, keeping content separate from presentation.
-
-## Components
-
-`Button` `ProjectCard` `ProjectWindow` `Tag` `TagList` `Skill`
-`Socials` `SystemBoot` `Terminal` `Directories` `Concatenate`
-
-## Sections
-
-- `whoami` — background and skills
-- `projects` — featured work
-- `contact` — GitHub, LinkedIn, email
-
-## Run locally
+## Zelf runnen
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000)
+Open [http://localhost:3000](http://localhost:3000).
+
+Overige scripts:
+
+```bash
+npm run build   # productie-build
+npm run start   # productie-build lokaal serveren
+npm run lint    # eslint
+```
