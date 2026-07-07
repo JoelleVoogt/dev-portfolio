@@ -29,8 +29,8 @@ export const projects: Project[] = [
     description:
       "Een playground om fontgewichten van verschillende families te testen.",
     tags: ["React", "TypeScript", "Tailwind"],
-    desktopImage: "/projects/typography-desktop4.png",
-    mobileImage: "/projects/typography-mobile7.png",
+    desktopImage: "/projects/typography-desktop5.png",
+    mobileImage: "/projects/typography-mobile8.png",
     url: "https://typography-lab.vercel.app/",
     repoUrl: "https://github.com/JoelleVoogt/Typography-Lab",
   },
