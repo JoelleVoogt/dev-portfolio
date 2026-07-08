@@ -27,7 +27,7 @@ export const projects: Project[] = [
     year: "2026",
     title: "Typography Lab",
     description:
-      "Een playground om fontgewichten van verschillende families te testen.",
+      "Een playground voor lettertypes: gewicht, grootte, spatiëring en casing.",
     tags: ["React", "TypeScript", "Tailwind"],
     desktopImage: "/projects/typography-desktop5.png",
     mobileImage: "/projects/typography-mobile8.png",
