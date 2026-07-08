@@ -13,7 +13,7 @@ Live: [joellevoogt.vercel.app](https://joellevoogt.vercel.app)
 - **whoami** (`~/about`) — wie ik ben en welke technologieën ik
   gebruik
 - **projects** (`~/werk`) — uitgelicht werk, elk project in een
-  eigen "venster"
+  eigen terminal venster
 - **contact** — e-mail, LinkedIn en GitHub
 
 ## Hoe is het opgezet?
