@@ -47,7 +47,7 @@ blokken — er is geen `tailwind.config` bestand.
 - `components/` — herbruikbare bouwstenen: `Button`, `ProjectCard`,
   `ProjectWindow`, `Tag`, `TagList`, `Skill`, `Socials`,
   `SystemBoot`, `Terminal`, `Directories`, `Concatenate`
-- `data/projects.tsx` — projectdata los van de presentatie, zodat
+- `data/projects.tsx` — project data los van de presentatie, zodat
   content en layout gescheiden blijven
 
 ## Zelf runnen
