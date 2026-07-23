@@ -31,7 +31,7 @@ Volledig opgebouwd in `app/globals.css` met Tailwind v4 `@theme`
 blokken — er is geen `tailwind.config` bestand.
 
 - Kleurenschalen: `brand` (groen, 50–950), `secondary` (oranje,
-  50–950), `surface` (neutraal, 0–950)
+  100-900), `surface` (neutraal, 0–950)
 - Shadow-tokens: `--shadow-brand`, `--shadow-secondary`,
   `--shadow-brand-card`
 - Custom utilities: `text-glow-brand` / `text-glow-secondary`
