@@ -12,7 +12,7 @@ Live: [joellevoogt.vercel.app](https://joellevoogt.vercel.app)
   rol, stack, achtergrond en expertise
 - **whoami** (`~/about`) — wie ik ben en welke technologieën ik
   gebruik
-- **projects** (`~/werk`) — uitgelicht werk, elk project in een
+- **projects** (`~/werk`) — elk project in een
   eigen terminal venster
 - **contact** — e-mail, LinkedIn en GitHub
 
