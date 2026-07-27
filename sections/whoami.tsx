@@ -24,10 +24,10 @@ export default function WhoAmI() {
 
               <div className="flex flex-col py-2 gap-8 text-sm md:text-base">
                 <p className="text-surface-50">
-                  Ik ben een Front-end Developer die complexe vraagstukken
-                  vertaalt naar eenvoudige, elegante interfaces. Ik hecht waarde
-                  aan details. Van pixel-perfecte layouts tot vloeiende
-                  interacties en een consistente gebruikerservaring.
+                  Ik ben een Developer die complexe vraagstukken vertaalt naar
+                  eenvoudige, elegante interfaces. Ik hecht waarde aan details.
+                  Van pixel-perfecte layouts tot vloeiende interacties en een
+                  consistente gebruikerservaring.
                 </p>
                 <p className="text-surface-50">
                   Onder die oppervlakte bouw ik doordachte structuren die

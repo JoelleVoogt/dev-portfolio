@@ -42,7 +42,7 @@ export default function Hero() {
         </div>
       </div>
       <div className="grid gap-y-2 md:gap-y-3 w-full text-sm md:text-base grid-cols-[124px_52px_1fr] md:grid-cols-[176px_80px_1fr] drop-shadow-[0_0_10px_rgba(0,255,65,0.30)]">
-        <SystemBoot boot="ROL" status="Front-end Developer" delay="0.2s" />
+        <SystemBoot boot="ROL" status="Developer" delay="0.2s" />
         <SystemBoot
           boot="STACK"
           status="React, Next.js, TypeScript, Tailwind"
