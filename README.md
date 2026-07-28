@@ -42,7 +42,7 @@ blokken — er is geen `tailwind.config` bestand.
 **Architectuur**
 
 - `app/` — Next.js routes en globale stijlen
-- `sections/` — de pagina-secties (`hero`, `whoami`, `projects`,
+- `sections/` — de pagina secties (`hero`, `whoami`, `projects`,
   `contact`, `nav`, `footer`)
 - `components/` — herbruikbare bouwstenen: `Button`, `ProjectCard`,
   `ProjectWindow`, `Tag`, `TagList`, `Skill`, `Socials`,
